@@ -87,7 +87,9 @@ header .container {
 }
 
 .slide-container{
-    display: flex;
+    background-color: #5DC98C;
+    width: 100%;
+    height: 635px;
 }
 
 .section1 {
@@ -269,7 +271,6 @@ header .container {
        }
 
     .slide-container {
-        display: flex;
         height: 300px;
     }   
 
