@@ -21,8 +21,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-      'about-us': "url('/image/about-us-section.svg')",
-      'people': "url('/image/people-bg.svg')",
+      'about-us': "url('/lucasjancreativemind/image/about-us-section.svg')",
+      'people': "url('/lucasjancreativemind/image/people-bg.svg')",
         
       }),
       backgroundColor: theme => ({
