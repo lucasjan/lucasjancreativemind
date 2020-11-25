@@ -23,6 +23,7 @@ module.exports = {
       backgroundImage: theme => ({
       'about-us': "url('./image/about-us-section.svg')",
       'people': "url('./image/people-bg.svg')",
+      'footer': "url('./image/footer-bg.svg')",
         
       }),
       backgroundColor: theme => ({
