@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-black">
-    <div class="header-section w-full">
+    <div class="header-section w-full min-h-screen">
         <div class="container mx-auto">   
-            <header class="header-wrap flex flex-row mr-6 ml-6 lg:flex-row lg:mr-6 lg:ml-6 sm:flex-col sm:mr-0 sm:ml-0">
+            <header class="header-wrap flex-row mr-6 ml-6 lg:flex-row lg:mr-6 lg:ml-6 sm:flex-col sm:mr-0 sm:ml-0 sm:flex hidden">
                 <div class="logo-area bg-theme-color pt-10 pb-4 pr-8 flex md:justify-center">
                     <img src="./image/act-logo.png" alt="">
                 </div>
@@ -33,30 +33,39 @@
                 </div>
 
             </header>
+
+            <!--for mobile device - header-->
+            <header class="mobile-header flex flex-row flex-wrap sm:hidden p-2">
+                <div class="flex-none p-1"><img src="/image/menu.svg" alt=""></div>
+                <div class="flex-grow flex justify-center"><img src="/image/title-logo.svg" alt=""></div>
+                <div class="flex-none"><img src="/image/round-logo-act.svg" alt=""></div>
+            </header>
+
+
             
-            <div class="banner-section flex mt-10">
-                <div class="left-banner-img w-3/6">
+            <div class="banner-section flex lg:flex-row flex-col mt-5">
+                <div class="left-banner-img lg:w-3/6 lg:order-first order-last w-full">
                     <img src="./image/shapes.png" alt="banner shapes">
                 </div>
-                <div class="banner-text text-white uppercase flex-stretch p-6 text-center">
+                <div class="banner-text text-white uppercase flex-stretch p-6 lg:text-center text-left lg:order-last order-first">
                     <h1>
-                        <span class="text-10xl p-0 leading-none">This site</span><br> 
-                        <span class="text-9xl p-0 leading-none tracking-wide">presents</span><br> 
-                        <span class="text-5xl p-0 leading-none tracking-widest">experimental ways</span><br> 
-                        <span class="text-3xl p-0 leading-none tracking-wider">in which to explore collection</span><br> 
-                        <span class="text-8xl p-0 leading-none tracking-wider">materials</span>
+                        <span class="lg:text-10xl text-6xl p-0 leading-none">This site</span><br> 
+                        <span class="lg:text-9xl text-6xl p-0 leading-none tracking-wide">presents</span><br> 
+                        <span class="lg:text-5xl text-2xl p-0 leading-none tracking-widest">experimental ways</span><br> 
+                        <span class="lg:text-3xl p-0 leading-none tracking-wider">in which to explore collection</span><br> 
+                        <span class="lg:text-8xl text-5xl p-0 leading-none tracking-wider">materials</span>
                     </h1>
                 </div>
 
             </div>
         </div>
     </div>
-    <div class="bg-about-us  bg-cover bg-center w-full h-1080xl">
-        <div class="container mx-auto flex items-center h-1080xl">
+    <div class="bg-about-us bg-cover bg-center min-h-screen flex flex-wrap content-center">
+        <div class="container mx-auto">
             <div class="max-w-2xl mr-10 ml-10">
-                <h3 class="text-white text-2xl">Welcome to the online repository of MIT's Center for Advanced Visual Studies (CAVS) Special Collection, 
+                <h3 class="text-white lg:text-2xl text-sm">Welcome to the online repository of MIT's Center for Advanced Visual Studies (CAVS) Special Collection, 
                     part of the Program in Art, Culture and Technology (ACT) Archives and Special Collections.</h2>
-                <button class="bg-white hover:bg-blue-700 text-black font-bold py-4 px-20 mt-10 rounded-2xl w-2/4">
+                <button class="bg-white hover:bg-blue-700 text-black font-bold py-4 px-20 mt-3 rounded-2xl w-2/4">
                         Learn More
                 </button> 
             </div>   
