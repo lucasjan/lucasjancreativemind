@@ -29,7 +29,10 @@ module.exports = {
       backgroundColor: theme => ({
         'theme-color': '#1C1C1C',
 
-      })
+      }),
+      fontFamily:{
+        official: ['Verdana']
+      }
     },
     height: {
         '1080xl': '67.5rem',
