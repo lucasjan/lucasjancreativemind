@@ -28,7 +28,7 @@ module.exports = {
       }),
       backgroundColor: theme => ({
         'theme-color': '#1C1C1C',
-
+        'ass-theme-color': '#E1E2E2',
       }),
       fontFamily:{
         official: ['Verdana']
