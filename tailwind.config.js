@@ -30,6 +30,8 @@ module.exports = {
         'theme-color': '#1C1C1C',
         'ass-theme-color': '#E1E2E2',
         'ass-background-color': '#CACCC9',
+        'ass-bgcolor-orange': '#FB8122',
+        'ass-bgcolor-black': '#1D2228',
       }),
       fontFamily:{
         official: ['Verdana']
