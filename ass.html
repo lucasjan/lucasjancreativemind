@@ -8,26 +8,27 @@
 </head>
 <body class="">
     <div class="header-section w-full">
-        <div class="flex flex-row mt-10 mb-10 ml-20 mr-20">
-            <div class="menu flex w-1/6">
-                 <img class="w-1/5" src="./image/menu-black.svg" alt="">
+        <div class="md:flex md:flex-row lg:mt-20 lg:mb-20 lg:ml-20 lg:mr-20 md:mt-10 md:mb-10 md:ml-5 md:mr-5 sm:mr-5 sm:ml-5 m-5 grid grid-cols-4 grid-rows-2">
+            <div class="menu md:flex md:w-1/6 row-start-2 col-span-2">
+                 <img class="xl:w-1/5 md:w-2/5" src="./image/menu-black.svg" alt="">
             </div>
-            <div class="site-logo flex-grow">
+            <div class="site-logo flex-grow col-span-4 row-end-1">
                 <div class="grid place-content-center">
                     <img class="" src="./image/AlfredSung_Logo_Black.svg" alt="">
                 </div>
                 
             </div>
-            <div class="social-media grid grid-cols-3 place-content-center justify-items-end w-1/6">
+            <div class="social-media grid grid-cols-3 md:w-1/6 place-content-center justify-items-end row-start-2 col-span-2">
                 <img class="" src="./image/loupe.svg" alt="">
                 <img class="" src="./image/user.svg" alt="">
                 <img class="" src="./image/cart.svg" alt="">
             </div>
+
         </div>
     </div>
     <div class="banner-area bg-ass-theme-color">
-        <div class="grid grid-cols-2">
-            <div class="banner-left flex flex-col items-center justify-center p-20">
+        <div class="md:grid md:grid-cols-2 md:grid-cols-1 flex flex-col">
+            <div class="banner-left flex flex-col items-center justify-center p-20 md:order-1 order-2">
                 <img class="w-full" src="./image/banner-elegant.svg" alt="">
                 <div class="mt-10">
                     <button class="bg-transparent border border-black text-black font-bold py-2 px-4" type="button">
@@ -35,7 +36,7 @@
                     </button>
                 </div>  
             </div>
-            <div class="">
+            <div class="md:order-2 order-1">
                 <img src="./image/banner-right-glasses.jpg" alt="">
             </div>
         </div>
