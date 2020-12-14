@@ -1,4 +1,8 @@
-@import url('/font/verdana.ttf');
+@import url('./font/verdana.ttf');
+@import url('./font/MOD20.TTF');
+@import url('./font/BrittanySignature.ttf');
+@import url('./font/Raleway-Italic-VariableFont_wght.ttf');
+@import url('./font/Raleway-VariableFont_wght.ttf');
 
 @tailwind base;
 

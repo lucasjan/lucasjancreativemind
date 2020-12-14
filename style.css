@@ -1,4 +1,12 @@
-@import url('/font/verdana.ttf');
+@import url('./font/verdana.ttf');
+
+@import url('./font/MOD20.TTF');
+
+@import url('./font/BrittanySignature.ttf');
+
+@import url('./font/Raleway-Italic-VariableFont_wght.ttf');
+
+@import url('./font/Raleway-VariableFont_wght.ttf');
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -10421,6 +10429,18 @@ video {
   font-family: Verdana;
 }
 
+.font-ass-modern{
+  font-family: MOD20;
+}
+
+.font-ass-brittany{
+  font-family: BrittanySignatureRegular, Brittany Signature;
+}
+
+.font-ass-raleway{
+  font-family: Raleway;
+}
+
 .font-hairline{
   font-weight: 100;
 }
@@ -17045,6 +17065,12 @@ video {
   color: rgba(112, 36, 89, var(--text-opacity));
 }
 
+.text-ass-primary{
+  --text-opacity: 1;
+  color: #FB8122;
+  color: rgba(251, 129, 34, var(--text-opacity));
+}
+
 .hover\:text-transparent:hover{
   color: transparent;
 }
@@ -17605,6 +17631,12 @@ video {
   color: rgba(112, 36, 89, var(--text-opacity));
 }
 
+.hover\:text-ass-primary:hover{
+  --text-opacity: 1;
+  color: #FB8122;
+  color: rgba(251, 129, 34, var(--text-opacity));
+}
+
 .focus\:text-transparent:focus{
   color: transparent;
 }
@@ -18163,6 +18195,12 @@ video {
   --text-opacity: 1;
   color: #702459;
   color: rgba(112, 36, 89, var(--text-opacity));
+}
+
+.focus\:text-ass-primary:focus{
+  --text-opacity: 1;
+  color: #FB8122;
+  color: rgba(251, 129, 34, var(--text-opacity));
 }
 
 .text-opacity-0{
@@ -31520,6 +31558,18 @@ video {
     font-family: Verdana;
   }
 
+  .sm\:font-ass-modern{
+    font-family: MOD20;
+  }
+
+  .sm\:font-ass-brittany{
+    font-family: BrittanySignatureRegular, Brittany Signature;
+  }
+
+  .sm\:font-ass-raleway{
+    font-family: Raleway;
+  }
+
   .sm\:font-hairline{
     font-weight: 100;
   }
@@ -38144,6 +38194,12 @@ video {
     color: rgba(112, 36, 89, var(--text-opacity));
   }
 
+  .sm\:text-ass-primary{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
+  }
+
   .sm\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -38704,6 +38760,12 @@ video {
     color: rgba(112, 36, 89, var(--text-opacity));
   }
 
+  .sm\:hover\:text-ass-primary:hover{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
+  }
+
   .sm\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -39262,6 +39324,12 @@ video {
     --text-opacity: 1;
     color: #702459;
     color: rgba(112, 36, 89, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-ass-primary:focus{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
   }
 
   .sm\:text-opacity-0{
@@ -52554,6 +52622,18 @@ video {
     font-family: Verdana;
   }
 
+  .md\:font-ass-modern{
+    font-family: MOD20;
+  }
+
+  .md\:font-ass-brittany{
+    font-family: BrittanySignatureRegular, Brittany Signature;
+  }
+
+  .md\:font-ass-raleway{
+    font-family: Raleway;
+  }
+
   .md\:font-hairline{
     font-weight: 100;
   }
@@ -59178,6 +59258,12 @@ video {
     color: rgba(112, 36, 89, var(--text-opacity));
   }
 
+  .md\:text-ass-primary{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
+  }
+
   .md\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -59738,6 +59824,12 @@ video {
     color: rgba(112, 36, 89, var(--text-opacity));
   }
 
+  .md\:hover\:text-ass-primary:hover{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
+  }
+
   .md\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -60296,6 +60388,12 @@ video {
     --text-opacity: 1;
     color: #702459;
     color: rgba(112, 36, 89, var(--text-opacity));
+  }
+
+  .md\:focus\:text-ass-primary:focus{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
   }
 
   .md\:text-opacity-0{
@@ -73588,6 +73686,18 @@ video {
     font-family: Verdana;
   }
 
+  .lg\:font-ass-modern{
+    font-family: MOD20;
+  }
+
+  .lg\:font-ass-brittany{
+    font-family: BrittanySignatureRegular, Brittany Signature;
+  }
+
+  .lg\:font-ass-raleway{
+    font-family: Raleway;
+  }
+
   .lg\:font-hairline{
     font-weight: 100;
   }
@@ -80212,6 +80322,12 @@ video {
     color: rgba(112, 36, 89, var(--text-opacity));
   }
 
+  .lg\:text-ass-primary{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
+  }
+
   .lg\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -80772,6 +80888,12 @@ video {
     color: rgba(112, 36, 89, var(--text-opacity));
   }
 
+  .lg\:hover\:text-ass-primary:hover{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
+  }
+
   .lg\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -81330,6 +81452,12 @@ video {
     --text-opacity: 1;
     color: #702459;
     color: rgba(112, 36, 89, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-ass-primary:focus{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
   }
 
   .lg\:text-opacity-0{
@@ -94622,6 +94750,18 @@ video {
     font-family: Verdana;
   }
 
+  .xl\:font-ass-modern{
+    font-family: MOD20;
+  }
+
+  .xl\:font-ass-brittany{
+    font-family: BrittanySignatureRegular, Brittany Signature;
+  }
+
+  .xl\:font-ass-raleway{
+    font-family: Raleway;
+  }
+
   .xl\:font-hairline{
     font-weight: 100;
   }
@@ -101246,6 +101386,12 @@ video {
     color: rgba(112, 36, 89, var(--text-opacity));
   }
 
+  .xl\:text-ass-primary{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
+  }
+
   .xl\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -101806,6 +101952,12 @@ video {
     color: rgba(112, 36, 89, var(--text-opacity));
   }
 
+  .xl\:hover\:text-ass-primary:hover{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
+  }
+
   .xl\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -102364,6 +102516,12 @@ video {
     --text-opacity: 1;
     color: #702459;
     color: rgba(112, 36, 89, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-ass-primary:focus{
+    --text-opacity: 1;
+    color: #FB8122;
+    color: rgba(251, 129, 34, var(--text-opacity));
   }
 
   .xl\:text-opacity-0{

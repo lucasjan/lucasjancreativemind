@@ -26,6 +26,9 @@ module.exports = {
       'footer': "url('./image/footer-bg.svg')",
         
       }),
+      textColor: theme => ({
+            'ass-primary': '#FB8122',
+        }),    
       backgroundColor: theme => ({
         'theme-color': '#1C1C1C',
         'ass-theme-color': '#E1E2E2',
@@ -34,7 +37,10 @@ module.exports = {
         'ass-bgcolor-black': '#1D2228',
       }),
       fontFamily:{
-        official: ['Verdana']
+        'official': ['Verdana'],
+        'ass-modern': ['MOD20'],
+        'ass-brittany': ['BrittanySignatureRegular, Brittany Signature'],
+        'ass-raleway' : ['Raleway'],
       }
     },
     height: {
