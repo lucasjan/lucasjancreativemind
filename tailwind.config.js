@@ -24,10 +24,11 @@ module.exports = {
       'about-us': "url('./image/about-us-section.svg')",
       'people': "url('./image/people-bg.svg')",
       'footer': "url('./image/footer-bg.svg')",
-        
+      'slider-1': "url('./image/slider-img.jpg')",
       }),
       textColor: theme => ({
             'ass-primary': '#FB8122',
+            'mgbd-red':'#EC221C',
         }),    
       backgroundColor: theme => ({
         'theme-color': '#1C1C1C',
