@@ -1,6 +1,37 @@
 // tailwind.config.js
 module.exports = {
   theme: {
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+    borderColor: theme => ({
+      ...theme('colors'),
+       DEFAULT: theme('colors.gray.300', 'currentColor'),
+      'mgbd-b-red': '#EC221C',
+     }),
+    inset: {
+      '0': 0,
+     auto: 'auto',
+     '2/3': '66.666667%',
+     '3/4': '75%',
+     '1/2': '50%',
+     '2': '2rem',
+     '5': '5rem',
+     '-5': '-5rem',
+    },
     fontSize: {
       'xs': '.75rem',
       'sm': '.875rem',
@@ -25,6 +56,20 @@ module.exports = {
       'people': "url('./image/people-bg.svg')",
       'footer': "url('./image/footer-bg.svg')",
       'slider-1': "url('./image/slider-img.jpg')",
+      'engine': "url('./image/engine-parts.png')",
+      'suspension': "url('./image/suspension-parts.png')",
+      'brake': "url('./image/break-parts.png')",
+      'exhaust': "url('./image/exhaust-parts.png')",
+      'bodykit': "url('./image/body-kits.png')",
+      'motor': "url('./image/motor-oils.png')",
+      'steering': "url('./image/steering-parts.png')",
+      'transmission': "url('./image/transmission-parts.jpg')",
+      'prof': "url('./image/prof-image.svg')",
+      'trap-black': "url('./image/trap-black.svg')",
+      'trap-grey': "url('./image/trap-grey.svg')",
+      'lp': "url('./image/light-products.jpg')",
+      'tp': "url('./image/tire-products.jpg')",
+      'bp': "url('./image/brake-products.jpg')",
       }),
       textColor: theme => ({
             'ass-primary': '#FB8122',
@@ -36,6 +81,8 @@ module.exports = {
         'ass-background-color': '#CACCC9',
         'ass-bgcolor-orange': '#FB8122',
         'ass-bgcolor-black': '#1D2228',
+        'mgbd-red': '#EC221C',
+        'mgbd-grey': '#3D4045',
       }),
       fontFamily:{
         'official': ['Verdana'],
@@ -47,6 +94,6 @@ module.exports = {
     height: {
         '1080xl': '67.5rem',
             }
+    
   }
 }
-
