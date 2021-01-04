@@ -28,6 +28,8 @@ module.exports = {
      '2/3': '66.666667%',
      '3/4': '75%',
      '1/2': '50%',
+     '4/5': '40%',
+     '3/5': '30%',
      '2': '2rem',
      '5': '5rem',
      '-5': '-5rem',
@@ -82,7 +84,7 @@ module.exports = {
         'ass-bgcolor-orange': '#FB8122',
         'ass-bgcolor-black': '#1D2228',
         'mgbd-red': '#EC221C',
-        'mgbd-grey': '#3D4045',
+        'mgbd-grey': '#2e2e2e',
       }),
       fontFamily:{
         'official': ['Verdana'],
