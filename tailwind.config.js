@@ -30,9 +30,11 @@ module.exports = {
      '1/2': '50%',
      '4/5': '40%',
      '3/5': '30%',
+     '2/5': '20%',
      '2': '2rem',
      '5': '5rem',
      '-5': '-5rem',
+     '0': '0',
     },
     fontSize: {
       'xs': '.75rem',
@@ -91,10 +93,15 @@ module.exports = {
         'ass-modern': ['MOD20'],
         'ass-brittany': ['BrittanySignatureRegular, Brittany Signature'],
         'ass-raleway' : ['Raleway'],
+      },
+      width:{
+        '8per': '8%',
       }
     },
+
     height: {
         '1080xl': '67.5rem',
+        '1/5': '20%',
             }
     
   }
