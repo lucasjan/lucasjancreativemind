@@ -23,7 +23,7 @@ module.exports = {
       'mgbd-b-red': '#EC221C',
      }),
     inset: {
-      '0': 0,
+      '0': '0',
      auto: 'auto',
      '2/3': '66.666667%',
      '3/4': '75%',
@@ -31,10 +31,11 @@ module.exports = {
      '4/5': '40%',
      '3/5': '30%',
      '2/5': '20%',
+     '1': '1rem',
      '2': '2rem',
      '5': '5rem',
      '-5': '-5rem',
-     '0': '0',
+
     },
     fontSize: {
       'xs': '.75rem',
@@ -78,6 +79,7 @@ module.exports = {
       textColor: theme => ({
             'ass-primary': '#FB8122',
             'mgbd-red':'#EC221C',
+            'mgbd-grey': '#939292',
         }),    
       backgroundColor: theme => ({
         'theme-color': '#1C1C1C',
@@ -96,6 +98,8 @@ module.exports = {
       },
       width:{
         '8per': '8%',
+        '35per': '35%',
+        '20per': '20%',
       }
     },
 

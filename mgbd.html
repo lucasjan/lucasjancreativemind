@@ -8,14 +8,23 @@
 </head>
 <body>
     <header>
-        <div class="container mx-auto flex mt-5 pb-5 border-b border-black">
+        <div class="container mx-auto lg:flex hidden mt-5 pb-5 border-b border-black xl:pl-0 xl:pr-0 lg:pl-10 lg:pr-10 md:pl-2 md:pr-4">
             <div class="flex w-4/5 text-sm">
-                <img src="/image/locastion-icon.svg" alt="">
-                <span class="ml-2 mr-10">UNIT 1 ASHFORD INUSTRIAL ESTATE, DIXON STREET WOLVERHAMPTON WV2 2BX,UNITED KINGDOM</span>
-                <img src="/image/call-icon.svg" alt="">
-                <span>+44 (0)1902 689975</span>
+                <div class="mt-1">
+                    <img class="w-4" src="./image/locastion-icon.svg" alt="">
+                </div>
+                
+                <div class="ml-2 mr-10 flex xl:flex-row lg:flex-col md:flex-col">
+                   <span>UNIT 1 ASHFORD INUSTRIAL ESTATE,</span> 
+                   <span>DIXON STREET WOLVERHAMPTON WV2 2BX,</span> 
+                   <span>UNITED KINGDOM</span> 
+                </div>
+                <div class="mt-1">
+                    <img class="w-4" src="./image/call-icon.svg" alt="">
+                </div>
+                <span class="">+44 (0)1902 689975</span>
             </div>
-            <div class="flex w-1/5 justify-end">
+            <div class="flex xl:w-1/5 lg:w-2/5 md:w-2/5 justify-end">
                 <ul class="flex">
                     <li class="pl-2">HOME</li>
                     <li class="pl-2">SHOP</li>
@@ -23,48 +32,63 @@
                 </ul>
             </div>
         </div>
-        <div class="container mx-auto mt-10 mb-10">
-            <img src="./image/mgbd-logo.png" alt="">      
+        <!--for mobile device - header-->
+        <div class="bg-black lg:hidden grid grid-cols-3 p-3">
+            <div class="flex justify-center">
+                <img class="w-6" src="./image/menu-white-icon.svg" alt="">
+            </div>
+            <div class="flex justify-center">
+                <img class="w-6" src="./image/location-white-icon.svg" alt="">
+            </div>
+            <div class="flex justify-center">
+                <img class="w-6" src="./image/phone-white-icon.svg" alt="">
+            </div>
+        </div>
+
+        <div class="container mx-auto mt-10 mb-10 xl:pl-0 xl:pr-0 lg:pl-10 lg:pr-10">
+            <div class="flex lg:justify-start md:justify-center justify-center">
+                    <img src="./image/mgbd-logo.png" alt=""> 
+            </div>     
         </div>
         <div class="bg-black">
             <div class="container mx-auto bg-black">
-                <ul class="flex text-white p-5">
-                    <li class="pl-5">PARTS</li>
-                    <li class="pl-5">NEWS</li>
-                    <li class="pl-5">ABOUT US</li>
-                    <li class="pl-5">EVENTS</li>
-                    <li class="pl-5">CARS</li>
-                    <li class="pl-5">MEDIA</li>
-                    <li class="pl-5">SUPPORT</li>
+                <ul class="lg:flex hidden lg:justify-start md:justify-center text-white p-5">
+                    <li class="pl-5 pr-5">PARTS</li>
+                    <li class="pl-5 pr-5">NEWS</li>
+                    <li class="pl-5 pr-5">ABOUT US</li>
+                    <li class="pl-5 pr-5">EVENTS</li>
+                    <li class="pl-5 pr-5">CARS</li>
+                    <li class="pl-5 pr-5">MEDIA</li>
+                    <li class="pl-5 pr-5">SUPPORT</li>
                 </ul>    
             </div>
         </div>
         <div class="slider-area">
-            <div class="bg-slider-1 slide1 min-h-screen bg-no-repeat bg-cover bg-center bg-top flex">
-                <div class="container mx-auto mt-40">
-                   <div class="text-7xl flex w-full justify-end">
+            <div class="lg:bg-slider-1 bg-black slide1 lg:min-h-screen bg-no-repeat bg-cover bg-center bg-top flex">
+                <div class="container mx-auto xl:mt-40 xl:p-0 lg:p-20 p-10">
+                   <div class="md:text-7xl text-4xl flex w-full lg:justify-end md:justify-center justify-center">
                        <span class="text-mgbd-red">BUY</span><span class="ml-5 text-white">PREMIUM</span>
                     </div> 
-                    <div class="text-10xl flex w-full justify-end">
-                        <span class="text-white tracking-wide leading-10">QUALITY</span>
+                    <div class="md:text-10xl text-5xl flex w-full lg:justify-end md:justify-center justify-center">
+                        <span class="text-white tracking-wide md:leading-10 leading-none">QUALITY</span>
                     </div>
-                    <div class="flex w-full justify-end mt-3">
-                        <div class="mt-6">
-                            <img src="./image/rover-logo.png" alt="">
+                    <div class="flex w-full lg:justify-end md:justify-center justify-center md:mt-3">
+                        <div class="md:mt-6 mt-4">
+                            <img class="md:w-auto w-10" src="./image/rover-logo.png" alt="">
                         </div>
-                        <span class="text-8xl text-mgbd-red tracking-wide">ROVER R6</span>
+                        <span class="md:text-8xl text-5xl text-mgbd-red tracking-wide">ROVER R6</span>
                     </div>
-                    <div class="flex w-full justify-end">
-                        <span class="text-8xl text-white tracking-wider leading-7">CAR PARTS</span>
+                    <div class="flex w-full lg:justify-end md:justify-center justify-center">
+                        <span class="md:text-8xl text-5xl text-white tracking-wider md:leading-7 leading-none">CAR PARTS</span>
                     </div>
-                    <div class="flex w-full justify-end mt-20">
-                        <div class="flex w-2/5 justify-center">
+                    <div class="flex w-full lg:justify-end md:justify-center justify-center md:mt-20 mt-10">
+                        <div class="flex 2xl:w-35per xl:w-2/5 lg:w-3/5 justify-center">
                             <button class="bg-white text-mgbd-red rounded font-bold py-2 px-8" type="button">
                                 ORDER NOW!
                             </button>
                         </div> 
                     </div>  
-                    <div class="slider-indicator flex w-full justify-center mt-20">
+                    <div class="slider-indicator lg:flex hidden w-full justify-center mt-20">
                         <div class="flex">
                             <div class="indicator1 pr-5">
                                 <img src="./image/ellipse-grey.svg" alt="">
@@ -83,18 +107,18 @@
                 </div>
             </div>
             <div class="prev-btn absolute left-0 top-3/4">
-                <div class="ml-5">
+                <div class="ml-5 lg:flex hidden">
                     <img src="./image/prev-btn.svg" alt="">
                 </div>
             </div>
             <div class="next-btn absolute right-0 top-3/4">
-                <div class="mr-5">
+                <div class="mr-5 lg:flex hidden">
                     <img src="./image/next-btn.svg" alt="">
                 </div>
             </div> 
         </div>
     </header>
-    <div class="grid grid-cols-4 grid-rows-2">
+    <div class="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 grid-rows-2">
         <div class="engine-parts bg-engine bg-cover">
             <div class="flex justify-center w-full mt-16 mb-32 pl-32">
                 <div class="flex flex-col ">
@@ -176,18 +200,18 @@
             </div>
         </div>
     </div>
-    <div class="book-now-section bg-prof min-h-screen bg-no-repeat bg-cover bg-center bg-top border-t-2 border-b-2 border-mgbd-b-red">
+    <div class="book-now-section bg-prof md:min-h-screen bg-no-repeat bg-cover bg-center bg-top border-t-2 border-b-2 border-mgbd-b-red">
         <div class="container mx-auto">
-            <div class="flex justify-end">
+            <div class="flex md:justify-end justify-center">
                 <div class="flex flex-col mt-64">
                     <div class="bg-trap-black bg-cover flex flex-col text-white">
-                        <span class="w-full text-center text-6xl px-40 ">Professionals You</span>
-                        <span class="w-full text-center text-6xl leading-5 pb-10">Can Trust</span>
+                        <span class="w-full text-center lg:text-6xl md:text-4xl text-4xl md:px-40 ">Professionals You</span>
+                        <span class="w-full text-center lg:text-6xl md:text-4xl text-4xl leading-5 pb-10">Can Trust</span>
                     </div>
                     <div class="bg-trap-grey bg-cover flex">
-                        <span class="w-full text-center bold text-white text-2xl p-2">Specialising in ROVER P6 repairs, servicing and restorations works.</span>
+                        <span class="w-full text-center bold text-white lg:text-2xl md:text-lg p-2">Specialising in ROVER P6 repairs, servicing and restorations works.</span>
                     </div>
-                    <div class="flex w-full justify-center mt-10">
+                    <div class="flex w-full justify-center md:mt-10 mt-5 md:mb-10 mb-10">
                         <button class="bg-white text-mgbd-red rounded font-bold py-4 px-10 text-2xl" type="button">
                             BOOK NOW!
                         </button>
@@ -199,16 +223,16 @@
     <div class="bg-white min-h-screen">
         <div class="container mx-auto mt-20 relative">
             <div class="flex justify-center font-bold">
-                <h2 class="text-2xl">TOP RATED PRODUCTS</h2>
+                <h2 class="text-3xl">TOP RATED PRODUCTS</h2>
             </div>
           
             <div class="flex relative w-full justify-center mt-10">
                 <div class="product-slider1 top-2">
-                    <div class="flex flex-col relative left-2 top-2">
+                    <div class="md:flex hidden flex-col relative left-2 top-2">
                         <img src="./image/light-products.jpg" alt="">
-                        <div class="absolute flex flex-col w-full justify-center text-white bottom-5 text-center">
-                            <span>CAR LIGHTS</span>
-                            <span>VIEW MORE</span>
+                        <div class="absolute flex flex-col w-full justify-center text-white lg:bottom-5 bottom-2 text-center">
+                            <span class="text-2xl font-bold text-mgbd-grey">CAR LIGHTS</span>
+                            <span class="text-mgbd-red">VIEW MORE</span>
                         </div>
                         
                     </div>
@@ -216,30 +240,30 @@
                 <div class="product-slider2 z-10">
                     <div class="flex flex-col relative">
                         <img src="./image/tire-products.jpg" alt="">
-                        <div class="absolute flex flex-col w-full justify-center text-white bottom-5 text-center">
-                            <span>CAR LIGHTS</span>
-                            <span>VIEW MORE</span>
+                        <div class="absolute flex flex-col w-full justify-center text-white lg:bottom-5 bottom-2 text-center">
+                            <span class="text-2xl font-bold text-white">CAR TIRES</span>
+                            <span class="text-mgbd-red">VIEW MORE</span>
                         </div>
                         
                     </div>
                 </div>
                 <div class="product-slider3">
-                    <div class="flex flex-col relative right-2 top-2">
+                    <div class="md:flex hidden flex-col relative right-2 top-2">
                         <img src="./image/brake-products.jpg" alt="">
-                        <div class="absolute flex flex-col w-full justify-center text-white bottom-5 text-center">
-                            <span>CAR LIGHTS</span>
-                            <span>VIEW MORE</span>
+                        <div class="absolute flex flex-col w-full justify-center text-white lg:bottom-5 bottom-2 text-center">
+                            <span class="text-2xl font-bold text-mgbd-grey">CAR BRAKES</span>
+                            <span class="text-mgbd-red">VIEW MORE</span>
                         </div>
                         
                     </div>
                 </div>
             
-                    <div class="absolute top-1/2 left-0">
+                    <div class="md:flex hidden absolute top-1/2 left-0">
                         <div class="2xl:-left-5 relative">
                             <img src="./image/grey-prev-btn.svg" alt="">
                         </div>
                     </div>
-                    <div class="absolute right-0 top-1/2">
+                    <div class="md:flex hidden absolute right-0 top-1/2">
                         <div class="2xl:-right-5 relative">
                             <img src="./image/grey-next-btn.svg" alt="">
                         </div>  
@@ -262,15 +286,15 @@
                 </div> 
             </div>  
         </div>
-        <div class="grid grid-cols-3 mt-20">
+        <div class="grid md:grid-cols-3 mt-20">
             <div class="bg-mgbd-red w-full relative">
                 <img src="./image/red-background.svg" alt="">
-                <div class="flex flex-col absolute 2xl:top-3/5 lg:top-2/5 2xl:pl-16 lg:pl-10">
-                    <span class="2xl:text-7xl text-6xl text-white font-bold">SUSPENSION</span>
-                    <span class="2xl:text-6xl text-white leading-8 font-bold">PARTS</span>
-                    <span class="2xl:text-9xl text-white leading-none font-bold">50% OFF</span>
-                    <div class="flex w-full justify-center mt-20">
-                        <button class="bg-white text-mgbd-red rounded font-bold py-4 px-10 text-2xl" type="button">
+                <div class="flex flex-col absolute 2xl:2/5 xl:top-2/5 lg:top-2/5 top-2/5 2xl:pl-16 xl:pl-6 lg:pl-4 md:pl-6 pl-8">
+                    <span class="2xl:text-7xl xl:text-6xl lg:text-5xl md:text-3xl text-5xl text-white leading-none font-bold">SUSPENSION</span>
+                    <span class="2xl:text-6xl xl:text-4xl lg:text-2xl md:text-xl text-2xl  text-white leading-none font-bold">PARTS</span>
+                    <span class="2xl:text-9xl xl:text-7xl lg:text-6xl md:text-5xl text-6xl text-white leading-none font-bold">50% OFF</span>
+                    <div class="flex w-full justify-center xl:mt-20 mt-5">
+                        <button class="bg-white text-mgbd-red rounded font-bold xl:py-4 xl:px-10 py-2 px-5 text-2xl" type="button">
                             BOOK NOW!
                         </button>
                     </div>
@@ -278,68 +302,78 @@
             </div>
             <div class="w-full bg-mgbd-grey relative">
                 <img src="./image/turbo.svg" alt="">
-                <div class="flex flex-col absolute top-3/5 pl-16">
-                    <span class="text-7xl text-white font-bold">SUSPENSION</span>
-                    <span class="text-6xl text-white leading-8 font-bold">PARTS</span>
-                    <span class="text-9xl text-white leading-none font-bold">50% OFF</span>
+                <div class="flex flex-col absolute 2xl:top-2/3 xl:top-2/3 lg:top-2/3 top-2/3 lg:pl-10 pl-6">
+                    <span class="2xl:text-6xl xl:text-4xl lg:text-2xl text-2xl  text-white leading-none font-bold">TURBO EXHAUST</span>
+                    <span class="2xl:text-4xl xl:text-2xl lg:text-xl text-white leading-none">PARTS</span>
+                    <span class="2xl:text-2xl text-mgbd-red leading-none">BUY NOW!</span>
                 </div>
             </div>
-            <div class="w-full">
+            <div class="w-full relative">
                 <img src="./image/motor-oil-promo.svg" alt="">
+                <div class="flex flex-col absolute 2xl:top-5 lg:top-2 md:top-1 top-2 2xl:left-3/5 lg:left-3/5 left-3/5">
+                    <span class="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-2xl text-4xl text-black leading-none font-bold">MOTOR</span>
+                    <span class="2xl:text-4xl xl:text-2xl lg:text-xl md:text-xl text-xl text-black leading-none ">OIL</span>
+                    <span class="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-2xl text-3xl text-mgbd-red leading-none font-bold">20% OFF</span>
+                    <span class="2xl:text-2xl text-mgbd-red leading-none">BUY NOW!</span>
+                </div>
             </div>   
         </div>
-        <div class="container mx-auto p-10 flex flex-row justify-center">
+        <div class="container mx-auto p-10 md:flex flex-row grid grid-cols-2 justify-center">
 
             <div class="flex items-center justify-center">
-                <img class="" src="/image/prod-logo1.png" alt="">
+                <img class="" src="./image/prod-logo1.png" alt="">
             </div>
             <div class="flex items-center justify-center">
-                <img class="" src="/image/prod-logo2.png" alt="">
+                <img class="" src="./image/prod-logo2.png" alt="">
             </div>
             <div class="flex items-center justify-center">
-                <img class="" src="/image/prod-logo3.png" alt="">
+                <img class="" src="./image/prod-logo3.png" alt="">
             </div>
             <div class="flex items-center justify-center">
-                <img class="" src="/image/prod-logo4.png" alt="">
+                <img class="" src="./image/prod-logo4.png" alt="">
             </div>
             <div class="flex items-center justify-center">
-                <img class="" src="/image/prod-logo5.png" alt="">
+                <img class="" src="./image/prod-logo5.png" alt="">
             </div>
            
         </div>
         <div class="bg-black">
-            <div class="container mx-auto p-10 flex flex-row">
-                <div class="w-1/3 flex flex-col">
-                    <img class="w-3/4" src="/image/mgbd-white-logo.png" alt="">
-                    <div class="flex flex-row mt-5">
-                        <div class="flex w-8per items-start mt-2">
-                            <img class="w-4/5" src="/image/location-white-icon.svg" alt="">
+            <div class="container mx-auto p-10 flex lg:flex-row flex-col">
+                <div class="lg:w-1/3 w-full flex flex-col">
+                    <div class="flex lg:justify-start justify-center">
+                        <img class="lg:w-3/4 md:w-1/4" src="./image/mgbd-white-logo.png" alt="">
+                    </div>
+                    <div class="flex lg:flex-row flex-col mt-5 lg:justify-start justify-center lg:items-start items-center">
+                        <div class="flex lg:justify-start justify-center xl:w-8per lg:w-8per w-10 items-center mt-2">
+                            <img class="w-7/12" src="./image/location-white-icon.svg" alt="">
                         </div>
-                        <div class="flex flex-col">
-                            <span class="text-white ml-2 mr-10">UNIT 1 ASHFORD INUSTRIAL ESTATE, </span>
-                            <span class="text-white ml-2 mr-10">DIXON STREET WOLVERHAMPTON WV2 2BX,</span>
-                            <span class="text-white ml-2 mr-10">UNITED KINGDOM</span>
+                        <div class="flex flex-col xl:mt-0 mt-2 lg:items-start items-center">
+                            <span class="text-white xl:text-xl text-xs xl:ml-2">UNIT 1 ASHFORD INUSTRIAL ESTATE, </span>
+                            <span class="text-white xl:text-xl text-xs xl:ml-2">DIXON STREET WOLVERHAMPTON WV2 2BX,</span>
+                            <span class="text-white xl:text-xl text-xs xl:ml-2">UNITED KINGDOM</span>
                         </div>
                         
                     </div>
-                    <div class="flex flex-row mt-5">
-                        <img src="/image/phone-white-icon.svg" alt="">
-                        <span class="text-white ml-2">+44 (0)1902 689975</span>
+                    <div class="flex lg:flex-row flex-col mt-5 lg:justify-start justify-center lg:items-start items-center">
+                        <div class="flex lg:justify-start justify-center xl:w-8per lg:w-8per w-10 items-center mt-2">
+                            <img class="w-7/12" src="./image/phone-white-icon.svg" alt="">
+                        </div>
+                        <span class="xl:mt-0 mt-2 text-white xl:text-xl text-xs xl:ml-2 lg:ml-0 ml-2">+44 (0)1902 689975</span>
                     </div>
                     
              
                 </div>
      
-                    <ul class="flex flex-grow text-white font-bold mt-5">
-                        <li class="pl-5">HOME</li>
-                        <li class="pl-5">PARTS</li>
-                        <li class="pl-5">NEWS</li>
-                        <li class="pl-5">ABOUT US</li>
-                        <li class="pl-5">EVENTS</li>
-                        <li class="pl-5">CARS</li>
-                        <li class="pl-5">MEDIA</li>
-                        <li class="pl-5">SUPPORT</li>
-                        <li class="pl-5">CONTACT US</li>
+                    <ul class="md:flex grid grid-cols-3 lg:justify-start justify-center flex-grow text-white lg:mt-5 mt-10">
+                        <li class="md:pl-5 md:py-0 py-2 xl:text-xl text-xs md:text-left text-center">HOME</li>
+                        <li class="md:pl-5 md:py-0 py-2 xl:text-xl text-xs md:text-left text-center">PARTS</li>
+                        <li class="md:pl-5 md:py-0 py-2 xl:text-xl text-xs md:text-left text-center">NEWS</li>
+                        <li class="md:pl-5 md:py-0 py-2 xl:text-xl text-xs md:text-left text-center">ABOUT US</li>
+                        <li class="md:pl-5 md:py-0 py-2 xl:text-xl text-xs md:text-left text-center">EVENTS</li>
+                        <li class="md:pl-5 md:py-0 py-2 xl:text-xl text-xs md:text-left text-center">CARS</li>
+                        <li class="md:pl-5 md:py-0 py-2 xl:text-xl text-xs md:text-left text-center">MEDIA</li>
+                        <li class="md:pl-5 md:py-0 py-2 xl:text-xl text-xs md:text-left text-center">SUPPORT</li>
+                        <li class="md:pl-5 md:py-0 py-2 xl:text-xl text-xs md:text-left text-center">CONTACT US</li>
                     </ul>
 
                 
