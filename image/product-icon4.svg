@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.142" height="58.259" viewBox="0 0 36.142 58.259">
+  <g id="product-icon4" transform="translate(-1369.858 -2538.741)">
+    <g id="Group_12" data-name="Group 12" transform="translate(455 -25)">
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="5.5" cy="5.5" r="5.5" transform="translate(934 2598)" fill="#f9a34f"/>
+      <g id="Group_10" data-name="Group 10">
+        <path id="Path_88" data-name="Path 88" d="M932.071,2573.882s2.358-2.137,7.369-2.137,7.443,2.137,7.443,2.137" transform="translate(-1492.967 1292.056) rotate(-42)" fill="none" stroke="#f9a34f" stroke-linecap="round" stroke-width="2"/>
+        <path id="Path_89" data-name="Path 89" d="M932.071,2575.483s2.934-2.822,9.369-2.822,9.654,2.822,9.654,2.822" transform="translate(-1497.532 1289.976) rotate(-42)" fill="none" stroke="#f9a34f" stroke-linecap="round" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="Group_13" data-name="Group 13">
+      <path id="Subtraction_5" data-name="Subtraction 5" d="M17,45H6a6.007,6.007,0,0,1-6-6V6A6.007,6.007,0,0,1,6,0H17a6.007,6.007,0,0,1,6,6V39A6.007,6.007,0,0,1,17,45Zm-.5-5A1.5,1.5,0,1,0,18,41.5,1.5,1.5,0,0,0,16.5,40Zm-5,0A1.5,1.5,0,1,0,13,41.5,1.5,1.5,0,0,0,11.5,40Zm-5,0A1.5,1.5,0,1,0,8,41.5,1.5,1.5,0,0,0,6.5,40Zm10-4A1.5,1.5,0,1,0,18,37.5,1.5,1.5,0,0,0,16.5,36Zm-5,0A1.5,1.5,0,1,0,13,37.5,1.5,1.5,0,0,0,11.5,36Zm-5,0A1.5,1.5,0,1,0,8,37.5,1.5,1.5,0,0,0,6.5,36Zm5-17A7.5,7.5,0,1,0,19,26.5,7.509,7.509,0,0,0,11.5,19ZM7,4A4.005,4.005,0,0,0,3,8v4a4.005,4.005,0,0,0,4,4h9a4,4,0,0,0,4-4V8a4,4,0,0,0-4-4H7Z" transform="translate(1383 2552)" fill="#f9a34f"/>
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="17" height="9" transform="translate(1386 2587)" fill="#f9a34f"/>
+    </g>
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="6" height="4" transform="translate(1396 2550)" fill="#f9a34f"/>
+    <path id="Path_90" data-name="Path 90" d="M1396.741,2550.5l1-3.114h2.615l.872,3.114Z" fill="#f9a34f"/>
+    <path id="Path_91" data-name="Path 91" d="M1398.983,2548.943v-8.9" fill="none" stroke="#f9a34f" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

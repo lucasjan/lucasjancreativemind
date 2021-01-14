@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="536" height="536" viewBox="0 0 536 536">
+  <g id="gnf-circle" transform="translate(-140 -188)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="268" cy="268" r="268" transform="translate(140 188)" fill="#1a202c"/>
+    <g id="LOGO" transform="translate(171 292.827)">
+      <text id="GATES" transform="translate(111 105.173)" fill="#f9a34f" font-size="63" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.161em"><tspan x="0" y="0">GATES</tspan></text>
+      <text id="FENCES" transform="translate(111 266.173)" fill="#f9a34f" font-size="66" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="-0.004em"><tspan x="0" y="0">FENCES</tspan></text>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="58" height="94" transform="translate(115 116.173)" fill="#f9a34f"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="58" height="94" transform="translate(301 116.173)" fill="#f9a34f"/>
+      <path id="Path_1" data-name="Path 1" d="M157.18,95v26.982S277.106,188.748,277.106,187.8V162.485Z" transform="translate(19.92 21.136)" fill="#f9a34f"/>
+    </g>
+  </g>
+</svg>

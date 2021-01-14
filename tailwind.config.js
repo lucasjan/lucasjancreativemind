@@ -75,9 +75,20 @@ module.exports = {
       'lp': "url('./image/light-products.jpg')",
       'tp': "url('./image/tire-products.jpg')",
       'bp': "url('./image/brake-products.jpg')",
+      'gnf': "url('./image/gnf-header-image.png')",
+      'gnf-freequote': "url('./image/free-quote.jpg')",
+      'gnf-hd': "url('./image/cta-header.png')",
+      'gnf-abstract1': "url('./image/abstract1.jpg')",
+      'gnf-abstract2': "url('./image/abstract2.png')",
+      'gnf-abstract3': "url('./image/testimonials.png')",
+      'gnf-com-box': "url('./image/comment-box.png')",
+      'uat-head': "url('./image/uat-header.jpg')",
+      'uat-hive': "url('./image/hive-background.png')",
       }),
       textColor: theme => ({
             'ass-primary': '#FB8122',
+            'gnf-primary': '#F9A34F',
+            'gnf-grey': '#999999',
             'mgbd-red':'#EC221C',
             'mgbd-grey': '#939292',
         }),    
@@ -89,6 +100,8 @@ module.exports = {
         'ass-bgcolor-black': '#1D2228',
         'mgbd-red': '#EC221C',
         'mgbd-grey': '#2e2e2e',
+        'gnf-primary': '#1B232A',
+        'gnf-secondary': '#F9A34F',
       }),
       fontFamily:{
         'official': ['Verdana'],
@@ -98,6 +111,7 @@ module.exports = {
       },
       width:{
         '8per': '8%',
+        '12per': '12%',
         '35per': '35%',
         '20per': '20%',
       }
@@ -107,6 +121,6 @@ module.exports = {
         '1080xl': '67.5rem',
         '1/5': '20%',
             }
-    
+
   }
 }
