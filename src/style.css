@@ -3,6 +3,14 @@
 @import url('./font/BrittanySignature.ttf');
 @import url('./font/Raleway-Italic-VariableFont_wght.ttf');
 @import url('./font/Raleway-VariableFont_wght.ttf');
+@import url('./font/georgia.ttf');
+@import url('./font/georgiab.ttf');
+@import url('./font/georgiai.ttf');
+@import url('.-inset-5/font/georgiaz.ttf');
+@import url('./font/YaleNew-Bold.otf');
+@import url('./font/YaleNew-BoldItalic.otf');
+@import url('./font/YaleNew-Italic.otf');
+@import url('./font/YaleNew-Roman.otf');
 
 @tailwind base;
 

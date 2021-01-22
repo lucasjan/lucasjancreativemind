@@ -6,14 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="min-h-screen bg-uat-head bg-center bg-no-repeat">
-        <div class="grid grid-cols-3 container mx-auto">
-            <div class="flex flex-row">
-                <div class="flex justify-center">
+<body class="font-uat-georgia">
+    <header class="lg:min-h-screen bg-uat-head xl:bg-center bg-no-repeat">
+        <div class="grid lg:grid-cols-3 grid-cols-1 container mx-auto">
+            <div class="lg:flex lg:flex-row grid grid-cols-2 xl:p-0 p-5">
+                <div class="flex lg:justify-center">
                     <img class="w-6" src="./image/menu-white-icon.svg" alt="">
                 </div>
-                <div class="flex justify-center items-center ml-20">
+                <div class="flex lg:justify-center justify-end items-center lg:ml-20">
                     <div class="px-5">
                         <img src="./image/instagram.png" alt="">
                     </div>
@@ -25,41 +25,39 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-center mt-10">
+            <div class="flex justify-center lg:mt-10">
                 <img src="./image/uat-logo.png" alt="">
             </div>
-            <div class="flex flex-row justify-end">
+            <div class="lg:flex lg:flex-row lg:justify-end grid grid-cols-2 xl:p-0 p-5">
                 
-                    <div class="flex justify-center items-center">
+                    <div class="flex lg:justify-center justify-end items-center">
                         <div>
                             <img src="./image/paper-plane-white-icon.svg" alt="">
                         </div>
-                        <span class="text-white">APPLY TO UAT</span>
+                        <span class="text-white lg:ml-0 ml-2">APPLY TO UAT</span>
                     </div>
-                    <div class="flex justify-center items-center ml-20">
+                    <div class="flex lg:justify-center justify-start items-center lg:ml-20 lg:pl-0 ml-24 pl-6">
                         <img src="./image/login-icon.svg" alt="">
                     </div>
                 
             </div>
         </div>
-        <div class="container mx-auto flex justify-end">
-            <div class="flex flex-col w-1/3 text-white my-40 items-center">
-                <h1 class="text-7xl">WE ARE UAT</h1>
-                <span class="px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <div class="container mx-auto flex xl:justify-end">
+            <div class="flex flex-col 2xl:w-1/3 xl:w-2/5 text-white xl:my-40 sm:my-20 mb-20 mt-5 items-center">
+                <h1 class="lg:text-7xl text-4xl">WE ARE UAT</h1>
+                <span class="xl:px-5 lg:px-40 sm:px-20 px-5 xl:text-left text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     +Vestibulum ornare, risus in rhoncus cursus, ligula justo dictum felis, 
                     id auctor eros tellus ac tortor. </span>
-                    <button class="bg-red-900 text-white font-bold py-2 px-4 mt-5 w-1/2" type="button">
-                        LEARN MORE
-                    </button>    
+                <button class="bg-red-900 text-white font-bold py-2 px-4 mt-5 xl:w-1/2" type="button">LEARN MORE</button>    
             </div>
         </div>
         
     </header>
-    <section class="min-h-screen bg-uat-hive">
-        <div class="container mx-auto flex justify-center">
-            <div class="flex flex-col w-1/3 text-black min-h-screen justify-center items-center">
-                <h1 class="text-7xl">ABOUT US</h1>
-                <span class="px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    <section class="lg:min-h-screen bg-uat-hive bg-center">
+        <div class="container mx-auto flex justify-center lg:p-0 sm:p-20 p-5">
+            <div class="flex flex-col xl:w-1/3 text-black lg:min-h-screen justify-center items-center">
+                <h2 class="2xl:text-7xl md:text-5xl text-3xl">ABOUT US</h1>
+                <span class="xl:px-5 sm:px-20 xl:text-left text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     +Vestibulum ornare, risus in rhoncus cursus, ligula justo dictum felis, 
                     id auctor eros tellus ac tortor. </span>
                     <button class="bg-red-900 text-white font-bold py-2 px-4 mt-5 w-1/2" type="button">
@@ -68,14 +66,254 @@
             </div>
         </div>
     </section>
-    <section class="grid grid-cols-5">
-        <div class="bg-black col-span-2">
-
+    <section class="sm:grid sm:grid-cols-5">
+        <div class="bg-uat-primary col-span-2 text-white">
+            <div class="flex justify-center 2xl:my-20 sm:my-5 pt-10 sm:mx-10">
+                <h2 class="xl:text-3xl text-2xl text-center font-bold">EXPLORE OUR DEGREES</h2>
+            </div>
+            <div class="flex flex-col items-center mb-10 sm:py-0 py-10">
+                <div class="grid grid-cols-4 w-full 2xl:px-40 sm:px-10 px-20 py-5">
+                    <div class="col-span-1 flex justify-center">
+                        <img src="./image/explore-icon1.svg" alt="">
+                    </div>
+                    <div class="flex items-center col-span-3 pl-5">
+                        <span class="2xl:text-lg lg:text-xl font-bold">BUSINESS AND INNOVATION</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-4 w-full 2xl:px-40 sm:px-10 px-20 py-5">
+                    <div class="col-span-1 flex justify-center">
+                        <img src="./image/explore-icon2.svg" alt="">
+                    </div>
+                    <div class="flex items-center col-span-3 pl-5">
+                        <span class="2xl:text-lg lg:text-xl font-bold">CREATION AND SIMULATION</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-4 w-full 2xl:px-40 sm:px-10 px-20 py-5">
+                    <div class="col-span-1 flex justify-center">
+                        <img src="./image/explore-icon3.svg" alt="">
+                    </div>
+                    <div class="flex items-center col-span-3 pl-5">
+                        <span class="2xl:text-lg lg:text-xl font-bold">CYBER SECURITY</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-4 w-full 2xl:px-40 sm:px-10 px-20 py-5">
+                    <div class="col-span-1 flex justify-center">
+                        <img src="./image/explore-icon4.svg" alt="">
+                    </div>
+                    <div class="flex items-center col-span-3 pl-5">
+                        <span class="2xl:text-lg lg:text-xl font-bold">DIGITAL ARTS</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-4 w-full 2xl:px-40 sm:px-10 px-20 py-5">
+                    <div class="col-span-1 flex justify-center">
+                        <img src="./image/explore-icon5.svg" alt="">
+                    </div>
+                    <div class="flex items-center col-span-3 pl-5">
+                        <span class="2xl:text-lg lg:text-xl font-bold">GAME STUDIES</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-4 w-full 2xl:px-40 sm:px-10 px-20 py-5">
+                    <div class="col-span-1 flex justify-center">
+                        <img src="./image/explore-icon6.svg" alt="">
+                    </div>
+                    <div class="flex items-center col-span-3 pl-5">
+                        <span class="2xl:text-lg lg:text-xl font-bold">SOFTWARE ENGINEERING</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-span-3">
-            <img src="./image/our-degrees.jpg" alt="">
+        <div class="col-span-3 bg-uat-deg bg-cover bg-no-repeat bg-center sm:flex hidden"></div>
+    </section>
+    <section class="container mx-auto"> 
+        <div class="flex sm:flex-row flex-col justify-center p-10">
+            <div class="flex flex-col items-center 2xl:mx-40 lg:mx-20 mx-10 sm:my-0 my-10">
+                <div>
+                    <img src="./image/learn-icon.svg" alt="">
+                </div>
+                <span class="text-2xl">LEARN</span>
+            </div>
+            <div class="flex flex-col items-center 2xl:mx-40 lg:mx-20 mx-10 sm:my-0 my-10">
+                <div>
+                    <img src="./image/experience-icon.svg" alt="">
+                </div>
+                <span class="text-2xl">EXPERIENCE</span>
+            </div>
+            <div class="flex flex-col items-center 2xl:mx-40 lg:mx-20 mx-10 sm:my-0 my-10">
+                <div>
+                    <img src="./image/innovate-icon.svg" alt="">
+                </div>
+                <span class="text-2xl">INNOVATE</span>
+            </div>
         </div>
     </section>
+    <section class="lg:min-h-screen bg-uat-hive bg-uat-primary bg-center">
+        <div class="container mx-auto w-full flex xl:justify-end justify-center py-20 xl:pr-40">
+            <h2 class="lg:text-7xl md:text-5xl text-3xl font-bold flex flex-col leading-none text-white">
+                <span class="xl:text-left text-center">LATEST</span> 
+                <span class="xl:text-left text-center">UPDATE</span> 
+            </h2>
+        </div>
+        <div class="container mx-auto pb-20">
+            <div class="grid sm:grid-cols-2">
+                <div class="flex flex-col bg-uat-grey">
+                    <div class="flex flex-col 2xl:p-40 lg:p-20 p-5">
+                        <span class="text-3xl font-bold text-white leading-none">Russia actually arrested a Russian Hacker</span>
+                        <span class="text-lg text-white mt-5 leading-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Vestibulum ornare, risus in rhoncus cursus, ligula justo dictum felis, 
+                            id auctor eros tellus ac tortor. 
+                        </span>
+                        <div class="grid grid-cols-2 mt-10">
+                            <div class="pt-2">
+                                <span class="italic text-white">2 min read</span>
+                            </div>
+                            <div class="flex justify-end w-full">
+                                <button class="bg-red-900 text-white font-bold py-2 px-4" type="button">
+                                    LEARN MORE
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="bg-white px-5 py-2">
+                            <img src="./image/uat-prev-icon.svg" alt="">
+                        </div>
+                        <div class="bg-white px-5 py-2">
+                            <img src="./image/uat-next-icon.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="min-h-full bg-uat-hack bg-cover bg-center sm:flex hidden"></div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:min-h-screen bg-uat-hive2 bg-center">
+        <div class="lg:min-h-screen flex justify-center items-center">
+            <div class="flex flex-col items-center lg:my-0 my-10">
+                <div>
+                    <h2 class="2xl:text-7xl md:text-5xl text-3xl font-bold">ANNOUNCEMENTS</h2>
+                </div>
+                <div class="flex flex-row justify-center lg:mt-20 mt-10">
+                    <div class="flex items-center sm:mx-10 mx-5">
+                        <img src="./image/uat-prev-icon.svg" alt="">
+                    </div>
+                    <div class="flex flex-col items-center sm:w-1/2 w-3/5">
+                        <span class="text-2xl sm:text-left text-center">FALL SEMESTER UPDATES</span>
+                        <span class="text-center mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Vestibulum ornare, risus in rhoncus cursus, ligula justo dictum felis, 
+                            id auctor eros tellus ac tortor. 
+                        </span>
+                        <button class="bg-red-900 text-white font-bold py-2 px-4 mt-10" type="button">
+                            LEARN MORE
+                        </button>
+                    </div>
+                    <div class="flex items-center sm:mx-10 mx-5">
+                        <img src="./image/uat-next-icon.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="grid lg:grid-cols-5 lg:min-h-screen">
+        <div class="col-span-2 bg-uat-request bg-cover bg-no-repeat bg-center lg:flex hidden"></div>
+        <div class="col-span-3 bg-uat-primary">
+            <div class="lg:min-h-screen lg:py-0 py-20 flex flex-col justify-center">
+                <div class="flex flex-col items-center 2xl:mt-20 sm:px-20 px-5">
+                    <div class="2xl:w-full xl:w-4/5 sm:text-left text-center">
+                        <h2 class="2xl:text-7xl md:text-5xl text-3xl font-bold text-white sm:text-left text-center">REQUEST INFO</h2>
+                        <span class="mt-5 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Vestibulum ornare, risus in rhoncus cursus, ligula justo dictum felis, 
+                            id auctor eros tellus ac tortor. 
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-4 place-content-center sm:px-20 px-5 xl:py-20 py-5">
+                    <input class="bg-transparent col-start-1 xl:col-span-1 col-span-3 border border-white py-3 px-4 text-black" type="text" name="" id="fullname" placeholder="Full Name">
+                    <input class="bg-transparent col-start-1 xl:col-span-1 col-span-3 border border-white py-3 px-4 text-black" type="email" name="" id="email" placeholder="Email Address">
+                    <input class="bg-transparent col-start-1 xl:col-span-1 col-span-3 border border-white py-3 px-4 text-black " type="tel" name="" id="phone-number" placeholder="Phone Number">
+                    <div class="bg-transparent col-start-1 col-span-3 border-white border py-2 px-2">
+                        <textarea class="bg-transparent py-2 px-4 w-full" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <button class="bg-red-900   text-white font-bold py-2 px-4 
+                    md:col-start-2 md:col-span-1 col-start-1 col-span-3" type="button">
+                        SEND NOW
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto sm:p-20 p-5">
+            <div class="flex flex-col items-center">
+                <span class="sm:text-4xl text-3xl sm:text-left text-center">SUBSCRIBE OUR NEWSLETTER</span>
+                <span class="mt-5 xl:text-left text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum sit amet odio at feugiat.</span>
+                <div class="grid sm:grid-cols-4 mt-10 shadow">
+                    <input class="bg-gray-300 py-3 px-4 text-black col-start-1 col-span-3" type="email" name="" id="email" placeholder="Email Address">
+                    <button class="font-ass-raleway bg-red-900 text-white lg:text-lg text-sm py-2 px-4 col-start-4 col-span-1" type="button">
+                        SUBSCRIBE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-uat-primary">
+        <div class="container mx-auto sm:p-10 p-10">
+            <div class="grid lg:grid-cols-4 grid-cols-1">
+                <div class="flex flex-col xl:col-span-1 lg:col-span-4 xl:order-1 order-3 mt-20">
+                    <div class="flex justify-center">
+                        <img src="./image/uat-logo.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <span class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Vestibulum ornare, risus in rhoncus cursus, ligula justo dictum felis, id auctor eros tellus ac tortor. 
+                            Curabitur pretium porttitor eros et placerat.</span>
+                    </div>
+                    <div class="flex mt-10 justify-center">
+                        <div class="text-center">
+                            <span class="text-white text-xs">&#169; 2020 UNIVERSITY OF ADVANCING TECHNOLOGY</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:col-span-2 lg:col-span-3 col-span-2 2xl:p-20 pt-10 flex flex-col xl:order-2 order-1">
+                    <span class="text-white text-2xl lg:text-left text-center">QUICK LINKS</span> 
+                    <div class="mt-10">
+                        <ul class="grid xl:grid-cols-4 sm:grid-cols-3 xl:text-center lg:text-left text-center text-white">
+                            <li class="py-2">Degrees</li>
+                            <li class="py-2 xl:col-span-2">Academics</li>
+                            <li class="py-2">Careers</li>
+                            <li class="py-2">Admission</li>
+                            <li class="py-2 xl:col-span-2">Student Experience</li>
+                            <li class="py-2">Apply</li>
+                            <li class="py-2">About UAT</li>
+                            <li class="py-2 xl:col-span-2">News & Events</li>
+                            <li class="py-2">Request Info</li>
+                        </ul>
+                    </div>   
+                </div>
+                <div class="xl:col-span-1 lg:col-span-1 col-span-2 2xl:p-20 pt-10 flex flex-col items-center xl:order-3 order-2">
+                    <span class="text-white text-2xl">CONTACT US</span>
+                    <div class="flex flex-col mt-10 text-white lg:text-left text-center">
+                        <span>2625 W. BASELINE RD.</span>
+                        <span>TEMPE, AZ 85283-1056</span>
+                        <span>(800) 658-5744</span>
+                    </div>
+                    <div class="flex mt-10">
+                        <div class="px-5">
+                            <img src="./image/instagram.png" alt="">
+                        </div>
+                        <div class="px-5">
+                            <img src="./image/facebook.png" alt="">
+                        </div>
+                        <div class="px-5 pt-1">
+                            <img src="./image/twitter.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
 

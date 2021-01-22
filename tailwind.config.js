@@ -84,6 +84,12 @@ module.exports = {
       'gnf-com-box': "url('./image/comment-box.png')",
       'uat-head': "url('./image/uat-header.jpg')",
       'uat-hive': "url('./image/hive-background.png')",
+      'uat-hive2': "url('./image/uat-hive2.png')",
+      'uat-deg': "url('./image/our-degrees.jpg')",
+      'uat-hack': "url('./image/hacker.jpg')",
+      'uat-grey': "url('./image/grey-uat.png')",
+      'uat-request': "url('./image/request-background.jpg')",
+      'yale-header': "url('./image/hive-header.jpg')",
       }),
       textColor: theme => ({
             'ass-primary': '#FB8122',
@@ -91,6 +97,7 @@ module.exports = {
             'gnf-grey': '#999999',
             'mgbd-red':'#EC221C',
             'mgbd-grey': '#939292',
+            'yale-grey': '#777777',
         }),    
       backgroundColor: theme => ({
         'theme-color': '#1C1C1C',
@@ -102,13 +109,28 @@ module.exports = {
         'mgbd-grey': '#2e2e2e',
         'gnf-primary': '#1B232A',
         'gnf-secondary': '#F9A34F',
+        'uat-primary': '#1A1A1A',
+        'yale-primary': '#FBE82D',
+        'yale-grey': '#464646',
       }),
       fontFamily:{
         'official': ['Verdana'],
         'ass-modern': ['MOD20'],
         'ass-brittany': ['BrittanySignatureRegular, Brittany Signature'],
         'ass-raleway' : ['Raleway'],
+        'uat-georgia' : ['Georgia'],
+        'yale-new' : ['YaleNew'],
       },
+
+      minHeight: {
+        '0': '0',
+        '1/4': '25%',
+        '1/2': '50%',
+        '4/6': '60%',
+        '3/4': '75%',
+        'full': '100%',
+       },
+
       width:{
         '8per': '8%',
         '12per': '12%',
