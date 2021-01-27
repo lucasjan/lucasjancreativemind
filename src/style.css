@@ -11,6 +11,9 @@
 @import url('./font/YaleNew-BoldItalic.otf');
 @import url('./font/YaleNew-Italic.otf');
 @import url('./font/YaleNew-Roman.otf');
+@import url('./font/VarelaRound-Regular.ttf');
+
+
 
 @tailwind base;
 

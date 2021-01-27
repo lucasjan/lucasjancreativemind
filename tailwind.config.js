@@ -90,6 +90,10 @@ module.exports = {
       'uat-grey': "url('./image/grey-uat.png')",
       'uat-request': "url('./image/request-background.jpg')",
       'yale-header': "url('./image/hive-header.jpg')",
+      'pj-header-nav': "url('./image/pennyjuice-green-background.svg')",
+      'pj-header': "url('./image/pj-fruit.png')",
+      'pj-torn': "url('./image/green-torn-border.png')",
+      'pj-w-cirle': "url('./image/white-circle.svg')",
       }),
       textColor: theme => ({
             'ass-primary': '#FB8122',
@@ -112,6 +116,13 @@ module.exports = {
         'uat-primary': '#1A1A1A',
         'yale-primary': '#FBE82D',
         'yale-grey': '#464646',
+        'pj-orange': '#F07A18',
+        'pj-orange-fruit': '#ED8E40',
+        'pj-yellow-fruit': '#F8D25A',
+        'pj-green-fruit': '#A5D15D',
+        'pj-grey': '#E1E1E1',
+        'pj-primary': '#F6F5FA',
+        'pj-secondary': '#575757',
       }),
       fontFamily:{
         'official': ['Verdana'],
@@ -120,6 +131,7 @@ module.exports = {
         'ass-raleway' : ['Raleway'],
         'uat-georgia' : ['Georgia'],
         'yale-new' : ['YaleNew'],
+        'pj-varela' : ['Varela Round'],
       },
 
       minHeight: {
@@ -132,16 +144,23 @@ module.exports = {
        },
 
       width:{
+
         '8per': '8%',
         '12per': '12%',
         '35per': '35%',
         '20per': '20%',
+        '24' : '24rem',
+        '20' : '20rem',
+        '18' : '18rem',
       }
     },
 
     height: {
         '1080xl': '67.5rem',
         '1/5': '20%',
+        '24' : '24rem',
+        '20' : '20rem',
+        '18' : '18rem',
             }
 
   }
