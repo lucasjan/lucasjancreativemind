@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.562" height="14.504" viewBox="0 0 14.562 14.504">
+  <g id="area-icon" transform="translate(-532.709 -1663.634)">
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(537 1667.99)" fill="none" stroke="#000" stroke-width="0.5">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.75" fill="none"/>
+    </g>
+    <g id="Group_38" data-name="Group 38" transform="translate(541.998 1663.99)">
+      <path id="Path_49" data-name="Path 49" d="M540.061,1668.844l4.922-4.855" transform="translate(-540.061 -1663.99)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_51" data-name="Path 51" d="M541,1664.2c.134.026,3.479,0,3.479,0v3.346" transform="translate(-539.8 -1663.93)" fill="none" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="Group_39" data-name="Group 39" transform="translate(533.061 1663.99)">
+      <path id="Path_49-2" data-name="Path 49" d="M544.983,1668.844l-4.922-4.855" transform="translate(-540.061 -1663.99)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_51-2" data-name="Path 51" d="M544.479,1664.2c-.134.026-3.479,0-3.479,0v3.346" transform="translate(-540.756 -1663.93)" fill="none" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="Group_40" data-name="Group 40" transform="translate(533.061 1672.927)">
+      <path id="Path_49-3" data-name="Path 49" d="M544.983,1663.99l-4.922,4.855" transform="translate(-540.061 -1663.99)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_51-3" data-name="Path 51" d="M544.479,1667.549c-.134-.026-3.479,0-3.479,0V1664.2" transform="translate(-540.756 -1662.968)" fill="none" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="Group_41" data-name="Group 41" transform="translate(541.998 1672.927)">
+      <path id="Path_49-4" data-name="Path 49" d="M540.061,1663.99l4.922,4.855" transform="translate(-540.061 -1663.99)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_51-4" data-name="Path 51" d="M541,1667.549c.134-.026,3.479,0,3.479,0V1664.2" transform="translate(-539.8 -1662.968)" fill="none" stroke="#000" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

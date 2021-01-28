@@ -94,7 +94,16 @@ module.exports = {
       'pj-header': "url('./image/pj-fruit.png')",
       'pj-torn': "url('./image/green-torn-border.png')",
       'pj-w-cirle': "url('./image/white-circle.svg')",
+      'paradise-slider': "url('./image/slide-paradise.jpg')",
+      'paradise-trans': "url('./image/trans-pic.png')",
+      'paradise-trans2': "url('./image/trans-pic2.png')",
+      'paradise-property': "url('./image/property.jpg')",
       }),
+
+      borderColor: theme => ({
+        'paradise-primary': '#F2B846',
+       }),
+
       textColor: theme => ({
             'ass-primary': '#FB8122',
             'gnf-primary': '#F9A34F',
@@ -102,6 +111,8 @@ module.exports = {
             'mgbd-red':'#EC221C',
             'mgbd-grey': '#939292',
             'yale-grey': '#777777',
+            'paradise-orange': '#F2B846',
+            'paradise-grey': '#616161',
         }),    
       backgroundColor: theme => ({
         'theme-color': '#1C1C1C',
@@ -123,6 +134,10 @@ module.exports = {
         'pj-grey': '#E1E1E1',
         'pj-primary': '#F6F5FA',
         'pj-secondary': '#575757',
+        'paradise-primary': '#F2B846',
+        'paradise-primary-light': '#F8DBA2',
+        'paradise-secondary': '#013953',
+        
       }),
       fontFamily:{
         'official': ['Verdana'],
@@ -144,8 +159,9 @@ module.exports = {
        },
 
       width:{
-
+        '6per': '6%',
         '8per': '8%',
+        '10per': '10%',
         '12per': '12%',
         '35per': '35%',
         '20per': '20%',
