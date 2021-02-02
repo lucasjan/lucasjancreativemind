@@ -2559,6 +2559,18 @@ video {
   background-color: rgba(1, 57, 83, var(--bg-opacity));
 }
 
+.bg-lucas-grey{
+  --bg-opacity: 1;
+  background-color: #AAAAAA;
+  background-color: rgba(170, 170, 170, var(--bg-opacity));
+}
+
+.bg-lucas-blue{
+  --bg-opacity: 1;
+  background-color: #2D3A66;
+  background-color: rgba(45, 58, 102, var(--bg-opacity));
+}
+
 .hover\:bg-transparent:hover{
   background-color: transparent;
 }
@@ -3249,6 +3261,18 @@ video {
   --bg-opacity: 1;
   background-color: #013953;
   background-color: rgba(1, 57, 83, var(--bg-opacity));
+}
+
+.hover\:bg-lucas-grey:hover{
+  --bg-opacity: 1;
+  background-color: #AAAAAA;
+  background-color: rgba(170, 170, 170, var(--bg-opacity));
+}
+
+.hover\:bg-lucas-blue:hover{
+  --bg-opacity: 1;
+  background-color: #2D3A66;
+  background-color: rgba(45, 58, 102, var(--bg-opacity));
 }
 
 .focus\:bg-transparent:focus{
@@ -3943,6 +3967,18 @@ video {
   background-color: rgba(1, 57, 83, var(--bg-opacity));
 }
 
+.focus\:bg-lucas-grey:focus{
+  --bg-opacity: 1;
+  background-color: #AAAAAA;
+  background-color: rgba(170, 170, 170, var(--bg-opacity));
+}
+
+.focus\:bg-lucas-blue:focus{
+  --bg-opacity: 1;
+  background-color: #2D3A66;
+  background-color: rgba(45, 58, 102, var(--bg-opacity));
+}
+
 .bg-none{
   background-image: none;
 }
@@ -4141,6 +4177,14 @@ video {
 
 .bg-paradise-property{
   background-image: url('./image/property.jpg');
+}
+
+.bg-lucas-header{
+  background-image: url('./image/lucas-building.jpg');
+}
+
+.bg-lucas-top-header{
+  background-image: url('./image/top-lucas-trans.png');
 }
 
 .from-transparent{
@@ -24756,6 +24800,18 @@ video {
     background-color: rgba(1, 57, 83, var(--bg-opacity));
   }
 
+  .sm\:bg-lucas-grey{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .sm\:bg-lucas-blue{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
   .sm\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -25446,6 +25502,18 @@ video {
     --bg-opacity: 1;
     background-color: #013953;
     background-color: rgba(1, 57, 83, var(--bg-opacity));
+  }
+
+  .sm\:hover\:bg-lucas-grey:hover{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .sm\:hover\:bg-lucas-blue:hover{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-transparent:focus{
@@ -26140,6 +26208,18 @@ video {
     background-color: rgba(1, 57, 83, var(--bg-opacity));
   }
 
+  .sm\:focus\:bg-lucas-grey:focus{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-lucas-blue:focus{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
   .sm\:bg-none{
     background-image: none;
   }
@@ -26338,6 +26418,14 @@ video {
 
   .sm\:bg-paradise-property{
     background-image: url('./image/property.jpg');
+  }
+
+  .sm\:bg-lucas-header{
+    background-image: url('./image/lucas-building.jpg');
+  }
+
+  .sm\:bg-lucas-top-header{
+    background-image: url('./image/top-lucas-trans.png');
   }
 
   .sm\:from-transparent{
@@ -46888,6 +46976,18 @@ video {
     background-color: rgba(1, 57, 83, var(--bg-opacity));
   }
 
+  .md\:bg-lucas-grey{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .md\:bg-lucas-blue{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
   .md\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -47578,6 +47678,18 @@ video {
     --bg-opacity: 1;
     background-color: #013953;
     background-color: rgba(1, 57, 83, var(--bg-opacity));
+  }
+
+  .md\:hover\:bg-lucas-grey:hover{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .md\:hover\:bg-lucas-blue:hover{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
   .md\:focus\:bg-transparent:focus{
@@ -48272,6 +48384,18 @@ video {
     background-color: rgba(1, 57, 83, var(--bg-opacity));
   }
 
+  .md\:focus\:bg-lucas-grey:focus{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-lucas-blue:focus{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
   .md\:bg-none{
     background-image: none;
   }
@@ -48470,6 +48594,14 @@ video {
 
   .md\:bg-paradise-property{
     background-image: url('./image/property.jpg');
+  }
+
+  .md\:bg-lucas-header{
+    background-image: url('./image/lucas-building.jpg');
+  }
+
+  .md\:bg-lucas-top-header{
+    background-image: url('./image/top-lucas-trans.png');
   }
 
   .md\:from-transparent{
@@ -69020,6 +69152,18 @@ video {
     background-color: rgba(1, 57, 83, var(--bg-opacity));
   }
 
+  .lg\:bg-lucas-grey{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .lg\:bg-lucas-blue{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
   .lg\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -69710,6 +69854,18 @@ video {
     --bg-opacity: 1;
     background-color: #013953;
     background-color: rgba(1, 57, 83, var(--bg-opacity));
+  }
+
+  .lg\:hover\:bg-lucas-grey:hover{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .lg\:hover\:bg-lucas-blue:hover{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-transparent:focus{
@@ -70404,6 +70560,18 @@ video {
     background-color: rgba(1, 57, 83, var(--bg-opacity));
   }
 
+  .lg\:focus\:bg-lucas-grey:focus{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-lucas-blue:focus{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
   .lg\:bg-none{
     background-image: none;
   }
@@ -70602,6 +70770,14 @@ video {
 
   .lg\:bg-paradise-property{
     background-image: url('./image/property.jpg');
+  }
+
+  .lg\:bg-lucas-header{
+    background-image: url('./image/lucas-building.jpg');
+  }
+
+  .lg\:bg-lucas-top-header{
+    background-image: url('./image/top-lucas-trans.png');
   }
 
   .lg\:from-transparent{
@@ -91152,6 +91328,18 @@ video {
     background-color: rgba(1, 57, 83, var(--bg-opacity));
   }
 
+  .xl\:bg-lucas-grey{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .xl\:bg-lucas-blue{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
   .xl\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -91842,6 +92030,18 @@ video {
     --bg-opacity: 1;
     background-color: #013953;
     background-color: rgba(1, 57, 83, var(--bg-opacity));
+  }
+
+  .xl\:hover\:bg-lucas-grey:hover{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .xl\:hover\:bg-lucas-blue:hover{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-transparent:focus{
@@ -92536,6 +92736,18 @@ video {
     background-color: rgba(1, 57, 83, var(--bg-opacity));
   }
 
+  .xl\:focus\:bg-lucas-grey:focus{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-lucas-blue:focus{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
   .xl\:bg-none{
     background-image: none;
   }
@@ -92734,6 +92946,14 @@ video {
 
   .xl\:bg-paradise-property{
     background-image: url('./image/property.jpg');
+  }
+
+  .xl\:bg-lucas-header{
+    background-image: url('./image/lucas-building.jpg');
+  }
+
+  .xl\:bg-lucas-top-header{
+    background-image: url('./image/top-lucas-trans.png');
   }
 
   .xl\:from-transparent{
@@ -113284,6 +113504,18 @@ video {
     background-color: rgba(1, 57, 83, var(--bg-opacity));
   }
 
+  .\32xl\:bg-lucas-grey{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .\32xl\:bg-lucas-blue{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
   .\32xl\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -113974,6 +114206,18 @@ video {
     --bg-opacity: 1;
     background-color: #013953;
     background-color: rgba(1, 57, 83, var(--bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-lucas-grey:hover{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-lucas-blue:hover{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
   .\32xl\:focus\:bg-transparent:focus{
@@ -114668,6 +114912,18 @@ video {
     background-color: rgba(1, 57, 83, var(--bg-opacity));
   }
 
+  .\32xl\:focus\:bg-lucas-grey:focus{
+    --bg-opacity: 1;
+    background-color: #AAAAAA;
+    background-color: rgba(170, 170, 170, var(--bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-lucas-blue:focus{
+    --bg-opacity: 1;
+    background-color: #2D3A66;
+    background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
   .\32xl\:bg-none{
     background-image: none;
   }
@@ -114866,6 +115122,14 @@ video {
 
   .\32xl\:bg-paradise-property{
     background-image: url('./image/property.jpg');
+  }
+
+  .\32xl\:bg-lucas-header{
+    background-image: url('./image/lucas-building.jpg');
+  }
+
+  .\32xl\:bg-lucas-top-header{
+    background-image: url('./image/top-lucas-trans.png');
   }
 
   .\32xl\:from-transparent{

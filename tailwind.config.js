@@ -98,6 +98,8 @@ module.exports = {
       'paradise-trans': "url('./image/trans-pic.png')",
       'paradise-trans2': "url('./image/trans-pic2.png')",
       'paradise-property': "url('./image/property.jpg')",
+      'lucas-header': "url('./image/lucas-building.jpg')",
+      'lucas-top-header': "url('./image/top-lucas-trans.png')",
       }),
 
       borderColor: theme => ({
@@ -137,7 +139,8 @@ module.exports = {
         'paradise-primary': '#F2B846',
         'paradise-primary-light': '#F8DBA2',
         'paradise-secondary': '#013953',
-        
+        'lucas-grey': '#AAAAAA',
+        'lucas-blue': '#2D3A66',
       }),
       fontFamily:{
         'official': ['Verdana'],
