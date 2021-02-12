@@ -2571,6 +2571,18 @@ video {
   background-color: rgba(45, 58, 102, var(--bg-opacity));
 }
 
+.bg-pm-orange{
+  --bg-opacity: 1;
+  background-color: #FF6138;
+  background-color: rgba(255, 97, 56, var(--bg-opacity));
+}
+
+.bg-pm-blue{
+  --bg-opacity: 1;
+  background-color: #141733;
+  background-color: rgba(20, 23, 51, var(--bg-opacity));
+}
+
 .hover\:bg-transparent:hover{
   background-color: transparent;
 }
@@ -3273,6 +3285,18 @@ video {
   --bg-opacity: 1;
   background-color: #2D3A66;
   background-color: rgba(45, 58, 102, var(--bg-opacity));
+}
+
+.hover\:bg-pm-orange:hover{
+  --bg-opacity: 1;
+  background-color: #FF6138;
+  background-color: rgba(255, 97, 56, var(--bg-opacity));
+}
+
+.hover\:bg-pm-blue:hover{
+  --bg-opacity: 1;
+  background-color: #141733;
+  background-color: rgba(20, 23, 51, var(--bg-opacity));
 }
 
 .focus\:bg-transparent:focus{
@@ -3979,6 +4003,18 @@ video {
   background-color: rgba(45, 58, 102, var(--bg-opacity));
 }
 
+.focus\:bg-pm-orange:focus{
+  --bg-opacity: 1;
+  background-color: #FF6138;
+  background-color: rgba(255, 97, 56, var(--bg-opacity));
+}
+
+.focus\:bg-pm-blue:focus{
+  --bg-opacity: 1;
+  background-color: #141733;
+  background-color: rgba(20, 23, 51, var(--bg-opacity));
+}
+
 .bg-none{
   background-image: none;
 }
@@ -4185,6 +4221,34 @@ video {
 
 .bg-lucas-top-header{
   background-image: url('./image/top-lucas-trans.png');
+}
+
+.bg-pm-header{
+  background-image: url('./image/pm-slider-image.jpg');
+}
+
+.bg-pm-cut-btn-border{
+  background-image: url('./image/button-cut-border.png');
+}
+
+.bg-pm-whatwedo{
+  background-image: url('./image/what-we-image.png');
+}
+
+.bg-pm-ourservices{
+  background-image: url('./image/our-services-bg.png');
+}
+
+.bg-pm-projects{
+  background-image: url('./image/projects-background.png');
+}
+
+.bg-pm-industries{
+  background-image: url('./image/industries-bg.png');
+}
+
+.bg-pm-team{
+  background-image: url('./image/ourteam-bg.jpg');
 }
 
 .from-transparent{
@@ -11048,6 +11112,10 @@ video {
 }
 
 .font-pj-varela{
+  font-family: Varela Round;
+}
+
+.font-pm-varela{
   font-family: Varela Round;
 }
 
@@ -18089,6 +18157,12 @@ video {
   color: rgba(97, 97, 97, var(--text-opacity));
 }
 
+.text-pm-orange{
+  --text-opacity: 1;
+  color: #FF6138;
+  color: rgba(255, 97, 56, var(--text-opacity));
+}
+
 .hover\:text-transparent:hover{
   color: transparent;
 }
@@ -18697,6 +18771,12 @@ video {
   color: rgba(97, 97, 97, var(--text-opacity));
 }
 
+.hover\:text-pm-orange:hover{
+  --text-opacity: 1;
+  color: #FF6138;
+  color: rgba(255, 97, 56, var(--text-opacity));
+}
+
 .focus\:text-transparent:focus{
   color: transparent;
 }
@@ -19303,6 +19383,12 @@ video {
   --text-opacity: 1;
   color: #616161;
   color: rgba(97, 97, 97, var(--text-opacity));
+}
+
+.focus\:text-pm-orange:focus{
+  --text-opacity: 1;
+  color: #FF6138;
+  color: rgba(255, 97, 56, var(--text-opacity));
 }
 
 .text-opacity-0{
@@ -24812,6 +24898,18 @@ video {
     background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
+  .sm\:bg-pm-orange{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .sm\:bg-pm-blue{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
+  }
+
   .sm\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -25514,6 +25612,18 @@ video {
     --bg-opacity: 1;
     background-color: #2D3A66;
     background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
+  .sm\:hover\:bg-pm-orange:hover{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .sm\:hover\:bg-pm-blue:hover{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-transparent:focus{
@@ -26220,6 +26330,18 @@ video {
     background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
+  .sm\:focus\:bg-pm-orange:focus{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-pm-blue:focus{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
+  }
+
   .sm\:bg-none{
     background-image: none;
   }
@@ -26426,6 +26548,34 @@ video {
 
   .sm\:bg-lucas-top-header{
     background-image: url('./image/top-lucas-trans.png');
+  }
+
+  .sm\:bg-pm-header{
+    background-image: url('./image/pm-slider-image.jpg');
+  }
+
+  .sm\:bg-pm-cut-btn-border{
+    background-image: url('./image/button-cut-border.png');
+  }
+
+  .sm\:bg-pm-whatwedo{
+    background-image: url('./image/what-we-image.png');
+  }
+
+  .sm\:bg-pm-ourservices{
+    background-image: url('./image/our-services-bg.png');
+  }
+
+  .sm\:bg-pm-projects{
+    background-image: url('./image/projects-background.png');
+  }
+
+  .sm\:bg-pm-industries{
+    background-image: url('./image/industries-bg.png');
+  }
+
+  .sm\:bg-pm-team{
+    background-image: url('./image/ourteam-bg.jpg');
   }
 
   .sm\:from-transparent{
@@ -33289,6 +33439,10 @@ video {
   }
 
   .sm\:font-pj-varela{
+    font-family: Varela Round;
+  }
+
+  .sm\:font-pm-varela{
     font-family: Varela Round;
   }
 
@@ -40330,6 +40484,12 @@ video {
     color: rgba(97, 97, 97, var(--text-opacity));
   }
 
+  .sm\:text-pm-orange{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
+  }
+
   .sm\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -40938,6 +41098,12 @@ video {
     color: rgba(97, 97, 97, var(--text-opacity));
   }
 
+  .sm\:hover\:text-pm-orange:hover{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
+  }
+
   .sm\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -41544,6 +41710,12 @@ video {
     --text-opacity: 1;
     color: #616161;
     color: rgba(97, 97, 97, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-pm-orange:focus{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
   }
 
   .sm\:text-opacity-0{
@@ -46988,6 +47160,18 @@ video {
     background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
+  .md\:bg-pm-orange{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .md\:bg-pm-blue{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
+  }
+
   .md\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -47690,6 +47874,18 @@ video {
     --bg-opacity: 1;
     background-color: #2D3A66;
     background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
+  .md\:hover\:bg-pm-orange:hover{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .md\:hover\:bg-pm-blue:hover{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
   }
 
   .md\:focus\:bg-transparent:focus{
@@ -48396,6 +48592,18 @@ video {
     background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
+  .md\:focus\:bg-pm-orange:focus{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-pm-blue:focus{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
+  }
+
   .md\:bg-none{
     background-image: none;
   }
@@ -48602,6 +48810,34 @@ video {
 
   .md\:bg-lucas-top-header{
     background-image: url('./image/top-lucas-trans.png');
+  }
+
+  .md\:bg-pm-header{
+    background-image: url('./image/pm-slider-image.jpg');
+  }
+
+  .md\:bg-pm-cut-btn-border{
+    background-image: url('./image/button-cut-border.png');
+  }
+
+  .md\:bg-pm-whatwedo{
+    background-image: url('./image/what-we-image.png');
+  }
+
+  .md\:bg-pm-ourservices{
+    background-image: url('./image/our-services-bg.png');
+  }
+
+  .md\:bg-pm-projects{
+    background-image: url('./image/projects-background.png');
+  }
+
+  .md\:bg-pm-industries{
+    background-image: url('./image/industries-bg.png');
+  }
+
+  .md\:bg-pm-team{
+    background-image: url('./image/ourteam-bg.jpg');
   }
 
   .md\:from-transparent{
@@ -55465,6 +55701,10 @@ video {
   }
 
   .md\:font-pj-varela{
+    font-family: Varela Round;
+  }
+
+  .md\:font-pm-varela{
     font-family: Varela Round;
   }
 
@@ -62506,6 +62746,12 @@ video {
     color: rgba(97, 97, 97, var(--text-opacity));
   }
 
+  .md\:text-pm-orange{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
+  }
+
   .md\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -63114,6 +63360,12 @@ video {
     color: rgba(97, 97, 97, var(--text-opacity));
   }
 
+  .md\:hover\:text-pm-orange:hover{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
+  }
+
   .md\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -63720,6 +63972,12 @@ video {
     --text-opacity: 1;
     color: #616161;
     color: rgba(97, 97, 97, var(--text-opacity));
+  }
+
+  .md\:focus\:text-pm-orange:focus{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
   }
 
   .md\:text-opacity-0{
@@ -69164,6 +69422,18 @@ video {
     background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
+  .lg\:bg-pm-orange{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .lg\:bg-pm-blue{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
+  }
+
   .lg\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -69866,6 +70136,18 @@ video {
     --bg-opacity: 1;
     background-color: #2D3A66;
     background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
+  .lg\:hover\:bg-pm-orange:hover{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .lg\:hover\:bg-pm-blue:hover{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-transparent:focus{
@@ -70572,6 +70854,18 @@ video {
     background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
+  .lg\:focus\:bg-pm-orange:focus{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-pm-blue:focus{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
+  }
+
   .lg\:bg-none{
     background-image: none;
   }
@@ -70778,6 +71072,34 @@ video {
 
   .lg\:bg-lucas-top-header{
     background-image: url('./image/top-lucas-trans.png');
+  }
+
+  .lg\:bg-pm-header{
+    background-image: url('./image/pm-slider-image.jpg');
+  }
+
+  .lg\:bg-pm-cut-btn-border{
+    background-image: url('./image/button-cut-border.png');
+  }
+
+  .lg\:bg-pm-whatwedo{
+    background-image: url('./image/what-we-image.png');
+  }
+
+  .lg\:bg-pm-ourservices{
+    background-image: url('./image/our-services-bg.png');
+  }
+
+  .lg\:bg-pm-projects{
+    background-image: url('./image/projects-background.png');
+  }
+
+  .lg\:bg-pm-industries{
+    background-image: url('./image/industries-bg.png');
+  }
+
+  .lg\:bg-pm-team{
+    background-image: url('./image/ourteam-bg.jpg');
   }
 
   .lg\:from-transparent{
@@ -77641,6 +77963,10 @@ video {
   }
 
   .lg\:font-pj-varela{
+    font-family: Varela Round;
+  }
+
+  .lg\:font-pm-varela{
     font-family: Varela Round;
   }
 
@@ -84682,6 +85008,12 @@ video {
     color: rgba(97, 97, 97, var(--text-opacity));
   }
 
+  .lg\:text-pm-orange{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
+  }
+
   .lg\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -85290,6 +85622,12 @@ video {
     color: rgba(97, 97, 97, var(--text-opacity));
   }
 
+  .lg\:hover\:text-pm-orange:hover{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
+  }
+
   .lg\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -85896,6 +86234,12 @@ video {
     --text-opacity: 1;
     color: #616161;
     color: rgba(97, 97, 97, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-pm-orange:focus{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
   }
 
   .lg\:text-opacity-0{
@@ -91340,6 +91684,18 @@ video {
     background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
+  .xl\:bg-pm-orange{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .xl\:bg-pm-blue{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
+  }
+
   .xl\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -92042,6 +92398,18 @@ video {
     --bg-opacity: 1;
     background-color: #2D3A66;
     background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
+  .xl\:hover\:bg-pm-orange:hover{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .xl\:hover\:bg-pm-blue:hover{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-transparent:focus{
@@ -92748,6 +93116,18 @@ video {
     background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
+  .xl\:focus\:bg-pm-orange:focus{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-pm-blue:focus{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
+  }
+
   .xl\:bg-none{
     background-image: none;
   }
@@ -92954,6 +93334,34 @@ video {
 
   .xl\:bg-lucas-top-header{
     background-image: url('./image/top-lucas-trans.png');
+  }
+
+  .xl\:bg-pm-header{
+    background-image: url('./image/pm-slider-image.jpg');
+  }
+
+  .xl\:bg-pm-cut-btn-border{
+    background-image: url('./image/button-cut-border.png');
+  }
+
+  .xl\:bg-pm-whatwedo{
+    background-image: url('./image/what-we-image.png');
+  }
+
+  .xl\:bg-pm-ourservices{
+    background-image: url('./image/our-services-bg.png');
+  }
+
+  .xl\:bg-pm-projects{
+    background-image: url('./image/projects-background.png');
+  }
+
+  .xl\:bg-pm-industries{
+    background-image: url('./image/industries-bg.png');
+  }
+
+  .xl\:bg-pm-team{
+    background-image: url('./image/ourteam-bg.jpg');
   }
 
   .xl\:from-transparent{
@@ -99817,6 +100225,10 @@ video {
   }
 
   .xl\:font-pj-varela{
+    font-family: Varela Round;
+  }
+
+  .xl\:font-pm-varela{
     font-family: Varela Round;
   }
 
@@ -106858,6 +107270,12 @@ video {
     color: rgba(97, 97, 97, var(--text-opacity));
   }
 
+  .xl\:text-pm-orange{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
+  }
+
   .xl\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -107466,6 +107884,12 @@ video {
     color: rgba(97, 97, 97, var(--text-opacity));
   }
 
+  .xl\:hover\:text-pm-orange:hover{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
+  }
+
   .xl\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -108072,6 +108496,12 @@ video {
     --text-opacity: 1;
     color: #616161;
     color: rgba(97, 97, 97, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-pm-orange:focus{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
   }
 
   .xl\:text-opacity-0{
@@ -113516,6 +113946,18 @@ video {
     background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
+  .\32xl\:bg-pm-orange{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .\32xl\:bg-pm-blue{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
+  }
+
   .\32xl\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -114218,6 +114660,18 @@ video {
     --bg-opacity: 1;
     background-color: #2D3A66;
     background-color: rgba(45, 58, 102, var(--bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-pm-orange:hover{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-pm-blue:hover{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
   }
 
   .\32xl\:focus\:bg-transparent:focus{
@@ -114924,6 +115378,18 @@ video {
     background-color: rgba(45, 58, 102, var(--bg-opacity));
   }
 
+  .\32xl\:focus\:bg-pm-orange:focus{
+    --bg-opacity: 1;
+    background-color: #FF6138;
+    background-color: rgba(255, 97, 56, var(--bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-pm-blue:focus{
+    --bg-opacity: 1;
+    background-color: #141733;
+    background-color: rgba(20, 23, 51, var(--bg-opacity));
+  }
+
   .\32xl\:bg-none{
     background-image: none;
   }
@@ -115130,6 +115596,34 @@ video {
 
   .\32xl\:bg-lucas-top-header{
     background-image: url('./image/top-lucas-trans.png');
+  }
+
+  .\32xl\:bg-pm-header{
+    background-image: url('./image/pm-slider-image.jpg');
+  }
+
+  .\32xl\:bg-pm-cut-btn-border{
+    background-image: url('./image/button-cut-border.png');
+  }
+
+  .\32xl\:bg-pm-whatwedo{
+    background-image: url('./image/what-we-image.png');
+  }
+
+  .\32xl\:bg-pm-ourservices{
+    background-image: url('./image/our-services-bg.png');
+  }
+
+  .\32xl\:bg-pm-projects{
+    background-image: url('./image/projects-background.png');
+  }
+
+  .\32xl\:bg-pm-industries{
+    background-image: url('./image/industries-bg.png');
+  }
+
+  .\32xl\:bg-pm-team{
+    background-image: url('./image/ourteam-bg.jpg');
   }
 
   .\32xl\:from-transparent{
@@ -121993,6 +122487,10 @@ video {
   }
 
   .\32xl\:font-pj-varela{
+    font-family: Varela Round;
+  }
+
+  .\32xl\:font-pm-varela{
     font-family: Varela Round;
   }
 
@@ -129034,6 +129532,12 @@ video {
     color: rgba(97, 97, 97, var(--text-opacity));
   }
 
+  .\32xl\:text-pm-orange{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
+  }
+
   .\32xl\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -129642,6 +130146,12 @@ video {
     color: rgba(97, 97, 97, var(--text-opacity));
   }
 
+  .\32xl\:hover\:text-pm-orange:hover{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
+  }
+
   .\32xl\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -130248,6 +130758,12 @@ video {
     --text-opacity: 1;
     color: #616161;
     color: rgba(97, 97, 97, var(--text-opacity));
+  }
+
+  .\32xl\:focus\:text-pm-orange:focus{
+    --text-opacity: 1;
+    color: #FF6138;
+    color: rgba(255, 97, 56, var(--text-opacity));
   }
 
   .\32xl\:text-opacity-0{

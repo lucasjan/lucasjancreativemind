@@ -100,6 +100,13 @@ module.exports = {
       'paradise-property': "url('./image/property.jpg')",
       'lucas-header': "url('./image/lucas-building.jpg')",
       'lucas-top-header': "url('./image/top-lucas-trans.png')",
+      'pm-header': "url('./image/pm-slider-image.jpg')",
+      'pm-cut-btn-border': "url('./image/button-cut-border.png')",
+      'pm-whatwedo': "url('./image/what-we-image.png')",
+      'pm-ourservices': "url('./image/our-services-bg.png')",
+      'pm-projects': "url('./image/projects-background.png')",
+      'pm-industries': "url('./image/industries-bg.png')",
+      'pm-team': "url('./image/ourteam-bg.jpg')",
       }),
 
       borderColor: theme => ({
@@ -115,6 +122,7 @@ module.exports = {
             'yale-grey': '#777777',
             'paradise-orange': '#F2B846',
             'paradise-grey': '#616161',
+            'pm-orange': '#FF6138',
         }),    
       backgroundColor: theme => ({
         'theme-color': '#1C1C1C',
@@ -141,6 +149,8 @@ module.exports = {
         'paradise-secondary': '#013953',
         'lucas-grey': '#AAAAAA',
         'lucas-blue': '#2D3A66',
+        'pm-orange': '#FF6138',
+        'pm-blue': '#141733',
       }),
       fontFamily:{
         'official': ['Verdana'],
@@ -150,6 +160,7 @@ module.exports = {
         'uat-georgia' : ['Georgia'],
         'yale-new' : ['YaleNew'],
         'pj-varela' : ['Varela Round'],
+        'pm-varela' : ['Varela Round'],
       },
 
       minHeight: {
