@@ -7,27 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="font-pm-varela">
-    <header class="bg-pm-header min-h-screen">
-        <div class="container mx-auto grid grid-cols-2 pt-5">
-            <div>
+    <header class="bg-pm-header md:min-h-screen lg:bg-center bg-top bg-no-repeat">
+        <div class="container mx-auto 2xl:px-0 md:px-10 px-5 grid md:grid-cols-2 pt-5">
+            <div class="flex md:justify-start justify-center">
                 <img src="./image/pm-logo.png" alt="">
             </div>
-            <div class="flex items-center justify-end flex-row">
-                <div class="pr-10">
-                    <button class="bg-pm-orange text-white font-bold py-3 px-5" type="button">
+            <div class="md:flex md:items-center md:justify-end md:flex-row grid grid-cols-2 md:mt-0 mt-5">
+                <div class="flex pr-10">
+                    <button class="bg-pm-orange text-white font-bold py-3 md:px-5 px-3" type="button">
                         Get A Quote
                     </button>
                 </div>
-                <div>
+                <div class="flex justify-end items-center">
                     <img src="./image/menu.svg" alt="">
                 </div>
             </div>
         </div>
-        <div class="container mx-auto min-h-screen flex justify-end items-center">
-            <div class="w-1/2">
-                <h1 class="flex text-white flex-col  px-20">
-                    <span class="text-center text-7xl leading-none">Welcome to </span>
-                    <span class="text-center text-5xl text-pm-orange  leading-none">P&M Computers Inc.</span>
+        <div class="container mx-auto md:min-h-screen md:py-0 py-20 flex justify-end items-center">
+            <div class="xl:w-1/2">
+                <h1 class="flex text-white flex-col md:px-20">
+                    <span class="text-center md:text-7xl text-3xl leading-none">Welcome to </span>
+                    <span class="text-center md:text-5xl text-2xl text-pm-orange  leading-none">P&M Computers Inc.</span>
                     <span class="leading-none mt-5 px-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum consectetur nisi id luctus. Donec id leo ut turpis vestibulum laoreet. </span>
                 </h1>
                 <div class="flex justify-center mt-10">
@@ -294,6 +294,88 @@
             Donec id leo ut turpis vestibulum laoreet. 
         </span>
         <span class="text-pm-orange mt-5 text-2xl">Get a Free Quote</span>
+        <div class="sm:w-1/5 flex flex-col mt-5">
+            <input class="bg-pm-blue rounded p-3 my-2 text-white placeholder-white" type="text" name="" id="fullname" placeholder="Full Name">
+            <input class="bg-pm-blue rounded p-3 my-2 text-white placeholder-white" type="email" name="" id="email" placeholder="Email Address">
+            <input class="bg-pm-blue rounded p-3 my-2 text-white placeholder-white" type="tel" name="" id="phone-number" placeholder="Phone Number">
+            <div class="bg-pm-blue rounded p-3 my-2 text-white placeholder-white">
+                <textarea class="bg-transparent w-full text-white" name="" id="" cols="30" rows="6" placeholder="Message"></textarea>
+            </div>
+            <div class="flex justify-center mt-5">
+                <button class="bg-pm-orange rounded text-white font-bold p-4 lg:w-2/5 w-full" type="button">
+                    Submit
+                </button>
+            </div>
+        </div>
     </section>
+    <footer class="bg-pm-blue">
+        <div class="container mx-auto flex py-20">
+            <div class="flex flex-col">
+                <div>
+                    <img src="./image/pm-logo-footer.png" alt="">
+                </div>
+                <span class="text-white leading-none mt-5">PO Box 270 Cliffside Park, NJ 07010</span>
+                <span class="text-white leading-none">United States of America</span>
+                <span class="text-white leading-none mt-10">+1 2019430353  |  general@pandminc.com</span>
+                <div class="flex lg:justify-start justify-end items-center xl:mt-10 mt-20">
+                    <div class="px-5">
+                        <img src="./image/instagram.png" alt="">
+                    </div>
+                    <div class="px-5">
+                        <img src="./image/facebook.png" alt="">
+                    </div>
+                    <div class="px-5 pt-1">
+                        <img src="./image/twitter.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 px-10 flex-grow">
+                <div class="flex flex-col text-white">
+                    <span class="text-2xl">IT Services</span>
+                    <ul class="mt-5">
+                        <li class="pb-2">Product Design</li>
+                        <li class="pb-2">Security</li>
+                        <li class="pb-2">PoC Dev</li>
+                        <li class="pb-2">Assurance</li>
+                        <li class="pb-2">App Dev</li>
+                        <li class="pb-2">Cloud Migration</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col text-white">
+                    <span class="text-2xl">Industries</span>
+                    <ul class="mt-5">
+                        <li class="pb-2">Retail</li>
+                        <li class="pb-2">Fintech</li>
+                        <li class="pb-2">HealthCare</li>
+                        <li class="pb-2">Agriculture</li>
+                        <li class="pb-2">Logistics</li>
+                        <li class="pb-2">Blockchain</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col text-white">
+                    <span class="text-2xl">Company</span>
+                    <ul class="mt-5">
+                        <li class="pb-2">About Us</li>
+                        <li class="pb-2">Leadership</li>
+                        <li class="pb-2">Our Values</li>
+                        <li class="pb-2">Awards</li>
+                        <li class="pb-2">Why Us</li>
+                        <li class="pb-2">Locations</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col text-white">
+                    <span class="text-2xl">Support</span>
+                    <ul class="mt-5">
+                        <li class="pb-2">FAQ</li>
+                        <li class="pb-2">Carreers</li>
+                        <li class="pb-2">Pricing Plans</li>
+                        <li class="pb-2">Cost Calculator</li>
+                        <li class="pb-2">Appointments</li>
+                        <li class="pb-2">Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
